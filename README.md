@@ -18,7 +18,7 @@ has been designed with accessibility and usability at its core.
 ## Live Site
 [View the live site here](#) ← replace with GitHub Pages URL once deployed
 
-## UX
+# UX Design
 ## Business Goals
 
 The primary goal of this portfolio site is to establish a professional online 
@@ -37,19 +37,28 @@ of my current capabilities — the quality of the site itself is as much a part 
 the portfolio as the projects it showcases.
 
 ### User stories 
+As a Code Institute assessor,
 
-## Wireframes
+I want to see a clearly structured, well-documented portfolio site so that I can evaluate the student's HTML and CSS skills.  
+I want to see evidence of responsive design so that I can confirm the site works across different screen sizes.  
+I want to be able to navigate between all sections of the site easily so that I can assess the full scope of the project.  
+I want to read a thorough README so that I can understand the developer's planning process, design decisions, and testing approach.  
+I want to see the project properly version controlled and deployed so that I can verify the development process and access the live site.
 
-Wireframes were created using [Balsamiq](https://balsamiq.com/).
+As a recruiter / employer,
 
-### Mobile
-![Mobile Wireframe](docs/wireframes/home.png)
+I want to immediately understand who the developer is and what they do so that I can quickly assess their suitability.  
+I want to see examples of their projects so that I can evaluate the quality and range of their work.  
+I want to see a clear list of their technical skills so that I can match them against a job requirement.  
+I want to find contact details easily so that I can get in touch about opportunities.  
+I want to be able to download or view a CV so that I can review their full background.  
 
-### Tablet
-![Tablet Wireframe](Wireframe/tablet/Mobile.png)
+As a general visitor,
 
-### Desktop
-![Desktop Wireframe](docs/wireframes/contact.png)
+I want the site to load quickly and be easy to navigate so that I can find what I need without frustration.  
+I want the site to work well on my mobile device so that I can browse comfortably on any screen.  
+I want to find links to the developer's GitHub so that I can explore their code and other projects.  
+
 
 ## Colour Scheme
 
@@ -72,24 +81,187 @@ All foreground and background colour combinations were tested using the [WebAIM 
 | Charcoal `#36454F` | Sage Green `#84CC16` |5.01:1 |✅ Pass |
 
 ## !!!Need to repeat above process for dark mode if implemented!!!
+
+## Typography
+
+All fonts are sourced from [Google Fonts](https://fonts.google.com/) and were 
+selected to complement the warm, professional feel of the colour palette.
+
+### Fonts Used
+
+| Role | Font | Weight |
+|---|---|---|
+| Headings | [Montserrat](https://fonts.google.com/specimen/Montserrat) | 600, 700 |
+| Body Text | [Lato](https://fonts.google.com/specimen/Lato) | 400, 700 |
+
+### Reasoning
+
+**Montserrat** was chosen for headings due to its clean, modern appearance and 
+strong visual weight. It projects confidence and professionalism, making it well 
+suited for a developer portfolio targeting recruiters.
+
+**Lato** was chosen for body text due to its high readability across all screen 
+sizes and its neutral, friendly tone. It pairs well with Montserrat without 
+competing for attention.
+
+A clear typographic hierarchy is maintained throughout the site using a 
+combination of font size, weight, and spacing to guide the user's eye through 
+each section naturally.
+
+### Fallback Fonts
+
+In the event Google Fonts fails to load, the following fallback stack is used:
+
+| Role | Fallback |
+|---|---|
+| Headings | sans-serif |
+| Body Text | sans-serif |
+
+
+## Wireframes
+
+Wireframes were created using [Balsamiq](https://balsamiq.com/) to plan the
+layout and structure of the site across all screen sizes. Each breakpoint 
+reflects Bootstrap 5's responsive grid system.
+
+| Breakpoint | Screen Size |
+|---|---|
+| Mobile | < 768px |
+| Tablet & Desktop | 768px — 1399px |
+| XL Screen | 1400px+ |
+
+### Mobile
+![Mobile Wireframe](docs/wireframes/mobile-wireframe.png)
+
+### Tablet & Desktop
+The layout remains consistent across tablet and desktop screen sizes.
+
+![Tablet & Desktop Wireframe](Wireframe/tablet/tablet-desktop.png)
+
+### XL Screen
+![XL Screen Wireframe](docs/wireframes/xl-wireframe.png)  
+
 ## Mockups
 
-## Credits
+# Testing
 
-### Tools/Resources
-[Claude by Anthropic](https://claude.ai/login) was used during the planning phase of this project as a thinking aid. Specifically, it helped me structure and articulate my user stories and acceptance criteria after I had defined my project goals and target audience. All design decisions, code, layout, and content were written and implemented by me. Claude was used in the same spirit as a mentor or tutor — to help me think through and document my ideas clearly, not to generate the project itself.
+## Manual Testing
 
+| Feature | Expected | Testing | Result | Fix |
+|---|---|---|---|---|
+| Navigation links | Each link scrolls to the correct section | Clicked each nav link | | |
+| Contact form | Form submits successfully via Formspree | Completed and submitted form | | |
+| CV download | PDF opens or downloads on click | Clicked download CV button | | |
+| Social links | Each link opens correct profile in a new tab | Clicked each social icon | | |
+| Responsive layout | Site displays correctly on all screen sizes | Tested in Chrome DevTools at 320px, 768px, 1200px, 1400px | | |
+| Hero CTA button | Contact me button scrolls to contact section | Clicked button | | |
 
-### Code
-### Content
-### Media
+## Validator Testing
 
-## Deployment
+| Validator | Result |
+|---|---|
+| [W3C HTML Validator](https://validator.w3.org/) | |
+| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | |
 
-##  Bugs discovered
+## Accessibility Testing
 
-## Testing
-### Expected
-### Testing
-### Result
-### Fix
+| Tool | Result |
+|---|---|
+| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | All colour combinations pass WCAG 2.1 AA |
+| [WAVE Accessibility Tool](https://wave.webaim.org/) | |
+
+## Browser Compatibility
+
+| Browser | Result |
+|---|---|
+| Chrome | |
+| Firefox | |
+| Safari | |
+| Edge | |
+
+## Bugs Discovered
+
+| Bug | Fix |
+|---|---|
+| | |
+
+---
+
+# Deployment
+
+The site was deployed to GitHub Pages using the following steps:
+
+1. Navigate to the repository on GitHub
+2. Click **Settings**
+3. Click **Pages** in the left hand menu
+4. Under **Source** select **Deploy from a branch**
+5. Under **Branch** select **main** and **/root** then click **Save**
+6. Wait a few minutes then refresh the page — the live URL will appear at the top of the Pages section
+
+The live site can be found here: [Luke Payne Portfolio](#) ← replace with your GitHub Pages URL
+
+### Local Deployment
+
+To run this project locally:
+
+1. Navigate to the repository on GitHub
+2. Click the green **Code** button
+3. Copy the HTTPS URL
+4. Open your terminal and navigate to your chosen directory
+5. Type `git clone` followed by the copied URL
+6. Press enter — the project will be cloned to your local machine
+
+---
+
+# Credits
+
+## Code
+
+| Source | Use |
+|---|---|
+| [Bootstrap 5](https://getbootstrap.com/) | Responsive grid, navbar, and card components |
+| [Bootstrap JS](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | Navbar toggle and interactive components |
+| [Formspree](https://formspree.io/) | Contact form submission handling |
+| [Font Awesome](https://fontawesome.com/) | Icons throughout the site |
+| [Google Fonts](https://fonts.google.com/) | Montserrat and Lato typefaces |
+
+## Content
+
+All written content was produced by Luke Payne.
+
+## Media
+
+| Source | Use |
+|---|---|
+| | |
+
+## Tools & Resources
+
+| Tool | Use |
+|---|---|
+| [Balsamiq](https://balsamiq.com/) | Wireframe design |
+| [Bootstrap 5](https://getbootstrap.com/) | Responsive grid, navbar, and card components |
+| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | Colour accessibility testing |
+| [TinyPNG](https://tinypng.com/) | Image compression |
+| [Google Fonts](https://fonts.google.com/) | Font selection and import |
+| [Font Awesome](https://fontawesome.com/) | Icon library |
+
+## AI Assistance
+
+[Claude by Anthropic](https://claude.ai/) was used as a planning and documentation 
+aid throughout the development of this project. Its use was limited strictly to 
+the planning and documentation phases and did not extend to the generation of any 
+code, design, or content featured on the site itself.
+
+Specifically, Claude assisted with:
+
+- Structuring and articulating user stories and acceptance criteria based on goals 
+and target audience defined by me
+- Advising on README structure and documentation best practices
+- Providing guidance on colour scheme, typography, and design decisions which were 
+then researched, reviewed, and finalised by me
+- Answering questions about tools, workflows, and industry best practices
+
+All final decisions regarding design, content, and implementation were made by me. 
+Claude was used in the same spirit as a mentor, tutor, or peer — as a sounding 
+board to help me think through and document my ideas clearly and professionally.
