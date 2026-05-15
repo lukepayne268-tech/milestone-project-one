@@ -1,21 +1,55 @@
-# Milestone Project 1 - Luke Payne's portfolio
+# Luke Payne | Portfolio
+
+## Project Description
+
+This is a personal portfolio website built as Milestone Project 1 for the 
+[Code Institute](https://codeinstitute.net/) Level 5 Full Stack Web Development 
+course. The site is built using HTML5 and CSS3 with Bootstrap 5 used to support 
+responsive layout and design.
+
+The portfolio is designed to provide a professional online presence that 
+introduces me as a developing full stack web developer. It presents my technical 
+skills, showcases my projects, and provides a clear route for potential employers 
+and collaborators to get in touch.
+
+The site is fully responsive across mobile, tablet, and desktop screen sizes and 
+has been designed with accessibility and usability at its core.
+
+## Live Site
+[View the live site here](#) ← replace with GitHub Pages URL once deployed
 
 ## UX
-### Business goals
+## Business Goals
+
+The primary goal of this portfolio site is to establish a professional online 
+presence that showcases my skills, projects, and experience as a developing 
+full stack web developer. The site is designed to:
+
+- Present my technical abilities and growth to potential employers and recruiters
+- Provide a central, easily accessible point of contact for professional opportunities
+- Demonstrate my front end development skills through the design and build of 
+the site itself
+- Document my progression through the Code Institute Full Stack Web Development 
+course via real project examples
+
+The site serves as both a **professional marketing tool** and a **live demonstration** 
+of my current capabilities — the quality of the site itself is as much a part of 
+the portfolio as the projects it showcases.
+
 ### User stories 
 
 ## Wireframes
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/).
 
-### Home
-![Home Wireframe](docs/wireframes/home.png)
+### Mobile
+![Mobile Wireframe](docs/wireframes/home.png)
 
-### About
-![About Wireframe](docs/wireframes/about.png)
+### Tablet
+![Tablet Wireframe](docs/wireframes/about.png)
 
-### Contact
-![Contact Wireframe](docs/wireframes/contact.png)
+### Desktop
+![Desktop Wireframe](docs/wireframes/contact.png)
 
 ## Colour Scheme
 
