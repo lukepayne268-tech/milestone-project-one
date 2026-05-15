@@ -18,6 +18,24 @@ has been designed with accessibility and usability at its core.
 ## Live Site
 [View the live site here](#) ← replace with GitHub Pages URL once deployed
 
+## Project Management
+
+This project was planned and tracked using a GitHub Project board following 
+an agile approach. User stories were logged as issues and prioritised using 
+the MoSCoW method:
+
+- **Must Have** — features required for the project to meet its core goals
+- **Should Have** — important features that add significant value but are not critical
+- **Could Have** — desirable features that will only be implemented if time allows
+
+Progress was tracked through the following stages:
+
+- To Do
+- In Progress
+- Done
+
+[View the Project Board here](https://github.com/users/yourusername/projects/1)
+
 # UX Design
 ## Business Goals
 
@@ -37,7 +55,7 @@ of my current capabilities — the quality of the site itself is as much a part 
 the portfolio as the projects it showcases.
 
 ### User stories 
-As a Code Institute assessor,
+**As a Code Institute assessor,**
 
 I want to see a clearly structured, well-documented portfolio site so that I can evaluate the student's HTML and CSS skills.  
 I want to see evidence of responsive design so that I can confirm the site works across different screen sizes.  
@@ -45,7 +63,7 @@ I want to be able to navigate between all sections of the site easily so that I 
 I want to read a thorough README so that I can understand the developer's planning process, design decisions, and testing approach.  
 I want to see the project properly version controlled and deployed so that I can verify the development process and access the live site.
 
-As a recruiter / employer,
+**As a recruiter / employer,**
 
 I want to immediately understand who the developer is and what they do so that I can quickly assess their suitability.  
 I want to see examples of their projects so that I can evaluate the quality and range of their work.  
@@ -53,7 +71,7 @@ I want to see a clear list of their technical skills so that I can match them ag
 I want to find contact details easily so that I can get in touch about opportunities.  
 I want to be able to download or view a CV so that I can review their full background.  
 
-As a general visitor,
+**As a general visitor,**
 
 I want the site to load quickly and be easy to navigate so that I can find what I need without frustration.  
 I want the site to work well on my mobile device so that I can browse comfortably on any screen.  
