@@ -46,7 +46,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/).
 ![Mobile Wireframe](docs/wireframes/home.png)
 
 ### Tablet
-![Tablet Wireframe](docs/wireframes/about.png)
+![Tablet Wireframe](Wireframe/tablet/Mobile.png)
 
 ### Desktop
 ![Desktop Wireframe](docs/wireframes/contact.png)
@@ -77,8 +77,7 @@ All foreground and background colour combinations were tested using the [WebAIM 
 ## Credits
 
 ### Tools/Resources
-[Claude by Anthropic](https://claude.ai/login)
-  - Was used during the planning phase of this project as a thinking aid. Specifically, it helped me structure and articulate my user stories and acceptance criteria after I had defined my project goals and target audience. All design decisions, code, layout, and content were written and implemented by me. Claude was used in the same spirit as a mentor or tutor — to help me think through and document my ideas clearly, not to generate the project itself.
+[Claude by Anthropic](https://claude.ai/login) was used during the planning phase of this project as a thinking aid. Specifically, it helped me structure and articulate my user stories and acceptance criteria after I had defined my project goals and target audience. All design decisions, code, layout, and content were written and implemented by me. Claude was used in the same spirit as a mentor or tutor — to help me think through and document my ideas clearly, not to generate the project itself.
 
 
 ### Code
