@@ -131,7 +131,9 @@ reflects Bootstrap 5's responsive grid system.
 | XL Screen | 1400px+ |
 
 ### Mobile
-![Mobile Wireframe](docs/wireframes/mobile-wireframe.png)
+Displays as a single scrolling page with a collapsible navigation menu. 
+All sections stack vertically in a single column layout.
+![Mobile Wireframe](Wireframe/mobile/Mobile.png)
 
 ### Tablet & Desktop
 The layout remains consistent across tablet and desktop screen sizes.
