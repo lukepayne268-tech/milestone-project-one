@@ -34,7 +34,7 @@ Progress was tracked through the following stages:
 - In Progress
 - Done
 
-[View the Project Board here](https://github.com/users/yourusername/projects/1)
+[View the Project Board here](https://github.com/users/lukepayne268-tech/projects/4)
 
 # UX Design
 ## Business Goals
@@ -148,18 +148,21 @@ reflects Bootstrap 5's responsive grid system.
 | Tablet & Desktop | 768px — 1399px |
 | XL Screen | 1400px+ |
 
-### Mobile
-Displays as a single scrolling page with a collapsible navigation menu. 
-All sections stack vertically in a single column layout.
+> ### Mobile
+> - Displays as a single scrolling page with a collapsible navigation menu. 
+> - All sections stack vertically in a single column layout.
 ![Mobile Wireframe](Wireframe/mobile/Mobile.png)
 
-### Tablet & Desktop
-The layout remains consistent across tablet and desktop screen sizes.
+> ### Tablet & Desktop
+> - The layout remains consistent across tablet and desktop screen sizes.
+![Tablet & Desktop Wireframe](Wireframe/tablet-desktop/tablet-desktop.png)
 
-![Tablet & Desktop Wireframe](Wireframe/tablet/tablet-desktop.png)
-
-### XL Screen
-![XL Screen Wireframe](docs/wireframes/xl-wireframe.png)  
+> ### XL Screen
+> **Pending amendments to XL wireframe:**
+> - Add profile photo to hero section and reinstate Download CV button alongside Contact Me
+> - Reduce empty space in skills section or add intro line
+> - Reduce projects from four cards to three
+![XL Screen Wireframe](Wireframe/xl-screens/xl-screens.png)  
 
 ## Mockups
 
