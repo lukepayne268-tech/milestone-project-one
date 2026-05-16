@@ -39,11 +39,15 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #EAEAE4;
 }
 
+
 .navbar-brand {
+    
+    color: #36454F;
+    padding: 4px 4px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: #36454F !important;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
 }
 
 .nav-link {
@@ -57,6 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link:hover {
     color: #84CC16 !important;
 }
+
+
 
 /* ========================
    Hero Section
