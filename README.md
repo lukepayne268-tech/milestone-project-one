@@ -57,25 +57,25 @@ the portfolio as the projects it showcases.
 ### User stories 
 **As a Code Institute assessor,**
 
-I want to see a clearly structured, well-documented portfolio site so that I can evaluate the student's HTML and CSS skills.  
-I want to see evidence of responsive design so that I can confirm the site works across different screen sizes.  
-I want to be able to navigate between all sections of the site easily so that I can assess the full scope of the project.  
-I want to read a thorough README so that I can understand the developer's planning process, design decisions, and testing approach.  
-I want to see the project properly version controlled and deployed so that I can verify the development process and access the live site.
+- I want to see a clearly structured, well-documented portfolio site so that I can evaluate the student's HTML and CSS skills.  
+- I want to see evidence of responsive design so that I can confirm the site works across different screen sizes.  
+- I want to be able to navigate between all sections of the site easily so that I can assess the full scope of the project.  
+- I want to read a thorough README so that I can understand the developer's planning process, design decisions, and testing approach.  
+- I want to see the project properly version controlled and deployed so that I can verify the development process and access the live site.
 
 **As a recruiter / employer,**
 
-I want to immediately understand who the developer is and what they do so that I can quickly assess their suitability.  
-I want to see examples of their projects so that I can evaluate the quality and range of their work.  
-I want to see a clear list of their technical skills so that I can match them against a job requirement.  
-I want to find contact details easily so that I can get in touch about opportunities.  
-I want to be able to download or view a CV so that I can review their full background.  
+- I want to immediately understand who the developer is and what they do so that I can quickly assess their suitability.  
+- I want to see examples of their projects so that I can evaluate the quality and range of their work.  
+- I want to see a clear list of their technical skills so that I can match them against a job requirement.  
+- I want to find contact details easily so that I can get in touch about opportunities.  
+- I want to be able to download or view a CV so that I can review their full background.  
 
 **As a general visitor,**
 
-I want the site to load quickly and be easy to navigate so that I can find what I need without frustration.  
-I want the site to work well on my mobile device so that I can browse comfortably on any screen.  
-I want to find links to the developer's GitHub so that I can explore their code and other projects.  
+- I want the site to load quickly and be easy to navigate so that I can find what I need without frustration.  
+- I want the site to work well on my mobile device so that I can browse comfortably on any screen.  
+- I want to find links to the developer's GitHub so that I can explore their code and other projects.  
 
 
 ## Colour Scheme
