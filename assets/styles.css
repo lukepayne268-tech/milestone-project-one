@@ -1,0 +1,171 @@
+/*
+Color Palette
+Off White:   #F5F5F0
+Charcoal:    #36454F
+Sage Green:  #84CC16
+
+Bootstrap Breakpoints
+sm  ≥576px
+md  ≥768px
+lg  ≥992px
+xl  ≥1200px
+xxl ≥1400px
+*/
+
+/* ========================
+   Global Styles
+======================== */
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #36454F;
+    background-color: #F5F5F0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+/* ========================
+   Navbar
+======================== */
+
+.navbar {
+    background-color: #F5F5F0 !important;
+    border-bottom: 1px solid #EAEAE4;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #36454F !important;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    font-family: "Lato", sans-serif;
+    color: #36454F !important;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 1rem !important;
+}
+
+.nav-link:hover {
+    color: #84CC16 !important;
+}
+
+/* ========================
+   Hero Section
+======================== */
+
+#hero {
+    background: linear-gradient(135deg, #F5F5F0 0%, #EAEAE4 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #36454F;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+#hero h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: #36454F;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #36454F;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.8;
+}
+
+/* ========================
+   Hero Buttons
+======================== */
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-dark {
+    background-color: #36454F;
+    border-color: #36454F;
+    color: #F5F5F0;
+    padding: 12px 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+
+.btn-dark:hover {
+    background-color: #84CC16;
+    border-color: #84CC16;
+    color: #36454F;
+}
+
+.btn-outline-secondary {
+    background-color: #36454F;
+    border-color: #36454F;
+    color: #84CC16;
+    padding: 12px 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #84CC16;
+    border-color: #84CC16;
+    color: #36454F;
+}
+
+/* ========================
+   Footer
+======================== */
+
+footer {
+    background-color: #36454F;
+    color: #F5F5F0;
+    text-align: center;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #84CC16;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F5F5F0;
+}
+
+footer p {
+    margin: 0;
+}

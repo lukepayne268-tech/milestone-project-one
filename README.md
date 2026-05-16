@@ -84,7 +84,7 @@ The portfolio uses a three-colour palette chosen for clarity, professionalism, a
 
 | Role | Swatch | Colour | Hex |
 |---|---|---|---|
-| Background | ![Pastel Coconut White](https://placehold.co/15x15/FAF0D7/FAF0D7.png) | Pastel Coconut White | `#FAF0D7` |
+| Background | ![Off White](https://placehold.co/15x15/F5F5F0/F5F5F0.png) | Pastel Coconut White | `#FAF0D7` |
 | Primary Text / Dark Sections | ![Charcoal](https://placehold.co/15x15/36454F/36454F.png) | Charcoal | `#36454F` |
 | Accent | ![Sage Green](https://placehold.co/15x15/84CC16/84CC16.png) | Sage Green | `#84CC16` |
 
@@ -93,8 +93,8 @@ All foreground and background colour combinations were tested using the [WebAIM 
 
 | Foreground | Background | Ratio | Result |
 |---|---|---|---|
-| Charcoal `#36454F` | Pastel Coconut White `#FAF0D7` |8.72:1 |✅ Pass |
-| Pastel Coconut White `#FAF0D7` | Charcoal `#36454F` |8.72:1 |✅ Pass |
+| Charcoal `#36454F` | Off White `#F5F5F0` |9.05:1 |✅ Pass |
+| Off White `#F5F5F0` | Charcoal `#36454F` |9.05:1 |✅ Pass |
 | Sage Green `#84CC16` | Charcoal `#36454F` |5.01:1 |✅ Pass |
 | Charcoal `#36454F` | Sage Green `#84CC16` |5.01:1 |✅ Pass |
 

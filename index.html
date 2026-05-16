@@ -1,20 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
 
-    <form action="https://formspree.io/f/yourformid" method="POST">
-  <input type="text" name="name" placeholder="Your name">
-  <input type="email" name="email" placeholder="Your email">
-  <br>
-  <textarea style="margin-top: 10px; width: 400px;" name="message" placeholder="Your message"></textarea>
-  <br>
-  <button style="" type="submit">Send</button>
-</form>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luke Payne</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!--Navbar section-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Contacts</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!--Hero section-->
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container text-center">
+        
+        <!-- Name and tagline -->
+        <h1>Luke Payne</h1>
+        <h2>Aspiring Full Stack Developer | Currently Studying at Code Institute</h2>
+
+        <!-- Short hero text -->
+        <p>A decade in tech-driven operations. Now building the tools myself.</p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-dark">Contact Me</a>
+          <a href="assets/docs/cv.pdf" class="btn btn-outline-secondary" download>Download CV</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <!--Footer section-->
+  <footer>
+    <p>© 2026 Luke Payne</p>
+    <p>
+      Built with
+      <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+        <Bootstrap 5><i class="fa-brands fa-bootstrap"></i>
+      </a>
+    </p>
+  </footer>
+
+  <!--Javascript for Bootstrap-->
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/52749b7183.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
