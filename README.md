@@ -98,6 +98,11 @@ All foreground and background colour combinations were tested using the [WebAIM 
 | Sage Green `#84CC16` | Charcoal `#36454F` |5.01:1 |✅ Pass |
 | Charcoal `#36454F` | Sage Green `#84CC16` |5.01:1 |✅ Pass |
 
+> **Design Decision:** The original background colour `#FAF0D7` was replaced 
+> with `#F5F5F0` during development as it read as too yellow against the other 
+> palette colours. `#F5F5F0` provides a cleaner, more neutral off-white while 
+> retaining warmth.
+
 ## !!!Need to repeat above process for dark mode if implemented!!!
 
 ## Typography
