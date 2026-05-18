@@ -19,51 +19,127 @@
 <body>
 
   <!--Navbar section-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">LP</a>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Luke Payne</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">About</a>
           <a class="nav-link" href="#">Skills</a>
           <a class="nav-link" href="#">Projects</a>
           <a class="nav-link" href="#">Contact</a>
         </div>
+        <a href="" download id="nav-cv" class="btn btn-outline-secondary d-none d-xl-inline-flex ms-xl-3">Download
+          CV</a>
       </div>
     </div>
   </nav>
   <main>
     <!--Hero section-->
-
-    <!-- Hero Section -->
     <section id="hero">
-      <div class="container text-center">
+      <div class="container">
+        <div class="row align-items-center mx-auto">
 
-        <!-- Profile image -->
-        <div class="hero-profile-img">
-          <img src="assets/images/profile.jpg" alt="Luke Payne" />
+          <!--Left column - image and buttons-->
+          <div class="col-12 col-lg-5 text-center">
+            <div class="hero-profile-img">
+              <img src="assets/images/profile.jpg" alt="Luke Payne" />
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+              <a href="#contact" class="btn btn-dark">Contact Me</a>
+              <a href="assets/docs/cv.pdf" class="btn btn-outline-secondary" download>Download CV</a>
+            </div>
+          </div>
+
+          <!--Right column - text-->
+          <div class="col-12 col-lg-7 text-center text-lg-start mt-4 mt-lg-0 ">
+            <h1>Luke Payne</h1>
+            <h2>Full Stack Developer in Training<br>Currently Studying at Code Institute</h2>
+            <h6>A decade in tech-driven operations. Now building the tools myself.</h6>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="h2 text-center col-12 col-lg-2">About Me</div>
+
+          <!--Left column - quick facts-->
+          <div class="col-12 col-lg-4 text-md-start mb-4 mb-md-0">
+
+            <!--2 column grid on mobile, single column on tablet/desktop-->
+            <div class="row g-2 mt-3 about-facts">
+              <div class="col-6 col-lg-12">
+                <div class="fact-item">
+                  <i class="fa-solid fa-location-dot"></i> Cambridgeshire
+                </div>
+              </div>
+              <div class="col-6 col-lg-12">
+                <div class="fact-item">
+                  <i class="fa-solid fa-graduation-cap"></i> Code Institute — Level 5
+                </div>
+              </div>
+              <div class="col-6 col-lg-12">
+                <div class="fact-item">
+                  <i class="fa-solid fa-briefcase"></i> 10 Years in Operations
+                </div>
+              </div>
+              <div class="col-6 col-lg-12">
+                <div class="fact-item">
+                  <i class="fa-brands fa-html5"></i> HTML5
+                </div>
+              </div>
+              <div class="col-6 col-lg-12">
+                <div class="fact-item">
+                  <i class="fa-brands fa-css3-alt"></i> CSS3
+                </div>
+              </div>
+              <div class="col-6 col-lg-12">
+                <div class="fact-item">
+                  <i class="fa-brands fa-bootstrap"></i> Bootstrap
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Vertical divider - hidden on mobile and xl -->
+          <div class="d-none d-md-none d-lg-block d-xl-block vr"></div>
+
+          <!--Right column - description-->
+          <div class="col-12 col-lg-5 mt-4 mt-lg-0">
+            <p>Hi, I'm Luke. For most of my career I worked in operations at Anglian Water —
+              managing teams, delivering projects, and spending a lot of time
+              working alongside technology that was changing how water companies
+              serve their customers. Logic, reasoning and problem solving are what I gravitate towards. Customer-centric
+              thinking and stakeholder engagement come naturally to me.</p>
+            <p>
+              Eventually I decided to stop working alongside the technology
+              and start building it myself. I'm currently studying full stack web development at Code Institute and
+              finding that a lot of what I learned managing complex projects and
+              leading teams translates surprisingly well to writing code.</p>
+
+
+            <p>I am currently based in Cambridgeshire but open to relocation for the right opportunity.</p>
+          </div>
+
+
+
         </div>
 
-        <!-- Name and tagline -->
-        <h1>Luke Payne</h1>
-        <h2>Full Stack Developer in training <br>Currently Studying at Code Institute</h2>
 
-        <!-- Short hero text -->
-        <p>A decade in tech-driven operations. Now building the tools myself.</p>
-
-        <!-- CTA Buttons -->
-        <!-- CTA Buttons -->
-        <div class="d-flex flex-column flex-lg-row justify-content-center gap-3 mt-4">
-          <a href="#contact" class="btn btn-dark">Contact Me</a>
-          <a href="assets/docs/cv.pdf" class="btn btn-outline-secondary" download>Download CV</a>
-        </div>
 
       </div>
     </section>
+
+
+
+
+
   </main>
 
 

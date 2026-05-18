@@ -37,6 +37,11 @@ Progress was tracked through the following stages:
 [View the Project Board here](https://github.com/users/lukepayne268-tech/projects/4)
 
 # UX Design
+
+**Design Decisions:** 
+
+The About section was changed from a side by side layout on tablet to a stacked layout. This was decided during development as the stacked layout read more cleanly on smaller tablet screens.  
+I also decided to have my profile image in the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead. 
 ## Business Goals
 
 The primary goal of this portfolio site is to establish a professional online 

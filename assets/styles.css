@@ -20,7 +20,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     color: #36454F;
-    background-color: #F5F5F0;
+    background: linear-gradient(135deg, #F5F5F0 0%, #EAEAE4 100%);
     margin: 0;
     padding: 0;
 }
@@ -35,24 +35,25 @@ h1, h2, h3, h4, h5, h6 {
 ======================== */
 
 .navbar {
-    background-color: #F5F5F0 !important;
-    border-bottom: 1px solid #EAEAE4;
+    background-color: #36454F !important;
+    border-bottom: 1px solid #2a353d;
 }
 
 
 .navbar-brand {
     
-    color: #36454F;
-    padding: 4px 4px;
+    color: #F5F5F0 !important;
+    padding: 4px 10px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2rem;
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
 .nav-link {
     font-family: "Lato", sans-serif;
-    color: #36454F !important;
+    color: #F5F5F0 !important;
     font-weight: 400;
     font-size: 1rem;
     padding: 0 1rem !important;
@@ -64,11 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
+
 /* ========================
    Hero Section
 ======================== */
 .hero-profile-img {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .hero-profile-img img {
@@ -83,14 +86,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero {
-    background: linear-gradient(135deg, #F5F5F0 0%, #EAEAE4 100%);
-    min-height: 100vh;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 80px 20px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 75px;
 }
+
+
 
 #hero h1 {
     font-size: 3.5rem;
@@ -158,6 +161,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #36454F;
 }
 
+
+/*About section*/
+
+.vr {
+    width: 1px;
+    background-color: #84CC16;
+    opacity: 0.7;
+    align-self: stretch;
+    margin: 0 1.5rem;
+    border-color: #36454F;
+}
+
+
+
 /* ========================
    Footer
 ======================== */
@@ -183,3 +200,4 @@ footer a:hover {
 footer p {
     margin: 0;
 }
+
