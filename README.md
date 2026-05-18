@@ -38,10 +38,12 @@ Progress was tracked through the following stages:
 
 # UX Design
 
-**Design Decisions:** 
 
-The About section was changed from a side by side layout on tablet to a stacked layout. This was decided during development as the stacked layout read more cleanly on smaller tablet screens.  
-I also decided to have my profile image in the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead. 
+> **Design Decision:** The About section was changed from a side by side layout on tablet to a stacked layout. 
+>This was decided during development as the stacked layout read > more cleanly on smaller tablet screens.
+>I also decided to have my profile image in the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead.
+  
+ 
 ## Business Goals
 
 The primary goal of this portfolio site is to establish a professional online 
@@ -158,6 +160,11 @@ reflects Bootstrap 5's responsive grid system.
 | Tablet & Desktop | 768px — 1399px |
 | XL Screen | 1400px+ |
 
+> **Design Decision:** The About section was changed from a side by side layout on tablet, as seen in my wireframes below, to a stacked layout. 
+>This was decided during development as the stacked layout read more cleanly on smaller tablet screens.
+>I also decided to move my profile image to the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead. 
+
+
 > ### Mobile
 > - Displays as a single scrolling page with a collapsible navigation menu. 
 > - All sections stack vertically in a single column layout.
@@ -165,7 +172,7 @@ reflects Bootstrap 5's responsive grid system.
 
 > ### Tablet & Desktop
 > - The layout remains consistent across tablet and desktop screen sizes.
-![Tablet & Desktop Wireframe](Wireframe/tablet-desktop/tablet-desktop.png)
+![Tablet & Desktop Wireframe](Wireframe/tablet-desktop/tablet-desktop.png)  
 
 > ### XL Screen
 > **Pending amendments to XL wireframe:**
