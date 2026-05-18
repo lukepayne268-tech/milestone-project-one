@@ -162,7 +162,15 @@ reflects Bootstrap 5's responsive grid system.
 
 > **Design Decision:** The About section was changed from a side by side layout on tablet, as seen in my wireframes below, to a stacked layout. 
 >This was decided during development as the stacked layout read more cleanly on smaller tablet screens.
->I also decided to move my profile image to the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead. 
+>I also decided to move my profile image to the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead.
+>
+>The updated breakpoints for my site are: 
+>| Breakpoint | Screen Size |
+>|---|---|
+>| Mobile | < 768px |
+>| Tablet & Desktop | 768px — 1399px |
+>| XL Screen | 1400px+ |
+> 
 
 
 > ### Mobile
