@@ -176,18 +176,18 @@ reflects Bootstrap 5's responsive grid system.
 > ### Mobile
 > - Displays as a single scrolling page with a collapsible navigation menu. 
 > - All sections stack vertically in a single column layout.
-![Mobile Wireframe](Wireframe/mobile/Mobile.png)
+![Mobile Wireframe](assets/docs/Wireframe/mobile/Mobile.png)
 
 > ### Tablet & Desktop
 > - The layout remains consistent across tablet and desktop screen sizes.
-![Tablet & Desktop Wireframe](Wireframe/tablet-desktop/tablet-desktop.png)  
+![Tablet & Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)  
 
 > ### XL Screen
 > **Pending amendments to XL wireframe:**
 > - Add profile photo to hero section and reinstate Download CV button alongside Contact Me
 > - Reduce empty space in skills section or add intro line
 > - Reduce projects from four cards to three
-![XL Screen Wireframe](Wireframe/xl-screens/xl-screens.png)  
+![XL Screen Wireframe](assets/docs/Wireframe/xl-screens/xl-screens.png)  
 
 ## Mockups
 
