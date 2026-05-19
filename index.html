@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luke Payne</title>
 
+  <!--Stylesheets-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet">
 </head>
 
 <body>
@@ -41,7 +42,7 @@
   </nav>
   <main>
     <!--Hero section-->
-    <section id="hero" class="py-5">
+    <section id="hero" class="py-4">
       <div class="container">
         <div class="row align-items-center mx-auto">
 
@@ -66,6 +67,7 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <div class="container">
         <div class="row align-items-center mx-auto">
@@ -73,11 +75,11 @@
           <!--2 column grid on mobile, single column on tablet/desktop-->
           <!--Left column - quick facts-->
           <div class="col-12 col-lg-6 mb-4">
-            <div class="text-center col-12 col-md-10">
+            <div class=" col-12 col-md-12 text-center text-lg-start">
               <h2>About</h2>
             </div>
 
-            
+
             <div class="row g-2 mt-3 about-facts">
               <div class="col-6 col-lg-6">
                 <div class="fact-item">
@@ -103,12 +105,7 @@
                 <div class="fact-item">
                   <i class="fa-solid fa-award"></i> Leadership & Management - L5
                 </div>
-              </div>
-              <div class="col-6">
-                <div class="fact-item">
-                  <i class="fa-brands fa-bootstrap"></i> Bootstrap
-                </div>
-              </div>
+              </div>              
             </div>
           </div>
 
@@ -138,65 +135,58 @@
       </div>
     </section>
     <section id="skills" class="py-5">
-      <div class="container">
-        <div class="row align-items-center">
+    <div class="container">
+        <div class="row align-items-center mx-auto">
 
-          <!--Skills heading-->
-          <div class="col-12 col-lg-3 text-center mb-4 mb-lg-0 justify-content-start">
-            <h2>Skills</h2>
-          </div>
-          <!--Skills grid-->
-          <div class="col-12 col-lg-7">
-            <div class="row g-4 text-center">
-
-              <div class="col-3">
-                <i class="fa-brands fa-html5 fa-4x"></i>
-                <p class="mt-2 mb-0">HTML 5</p>
-              </div>
-
-              <div class="col-3">
-                <i class="fa-brands fa-css3-alt fa-4x"></i>
-                <p class="mt-2 mb-0">CSS 3</p>
-              </div>
-
-              <div class="col-3">
-                <i class="fa-brands fa-bootstrap fa-4x"></i>
-                <p class="mt-2 mb-0">Bootstrap</p>
-              </div>
-
-              <div class="col-3">
-                <i class="fa-brands fa-square-js fa-4x"></i>
-                <p class="mt-2 mb-0">JavaScript</p>
-              </div>
-              <div class="col-3">
-                <i class="fa-brands fa-python fa-4x"></i>
-                <p class="mt-2 mb-0">Python</p>
-              </div>
-              <div class="col-3">
-                <i class="fa-solid fa-database fa-4x"></i>
-                <p class="mt-2 mb-0">SQL</p>
-              </div>
-              <div class="col-3">
-                <i class="fa-solid fa-code fa-4x"></i>
-                <p class="mt-2 mb-0">Django</p>
-              </div>
-              <div class="col-3 ">
-                <i class="fa-solid fa-code-branch fa-4x"></i>
-                <p class="mt-2 mb-0">Git</p>
-              </div>
-
-
+            <!-- Left column - heading -->
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
+                <h2>Technical Skills</h2>
+                <p class="mt-3 text-muted">Technologies I am currently learning and working with.</p>
             </div>
 
+            
 
+            <!-- Right column - skills grid -->
+            <div class="border-start border-3 border-custom border-primarycol-12 col-lg-5">
+                <div class="row g-4 text-center">
+                    <div class="col-3">
+                        <i class="fa-brands fa-html5 fa-4x"></i>
+                        <p class="mt-2 mb-0">HTML 5</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-brands fa-css3-alt fa-4x"></i>
+                        <p class="mt-2 mb-0">CSS 3</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-brands fa-bootstrap fa-4x"></i>
+                        <p class="mt-2 mb-0">Bootstrap</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-brands fa-square-js fa-4x"></i>
+                        <p class="mt-2 mb-0">JavaScript</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-brands fa-python fa-4x"></i>
+                        <p class="mt-2 mb-0">Python</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-solid fa-database fa-4x"></i>
+                        <p class="mt-2 mb-0">SQL</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-solid fa-code fa-4x"></i>
+                        <p class="mt-2 mb-0">Django</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa-solid fa-code-branch fa-4x"></i>
+                        <p class="mt-2 mb-0">Git</p>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-          </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
 
@@ -216,7 +206,7 @@
     </p>
   </footer>
 
-  <!--Javascript for Bootstrap-->
+  <!--Javascript for Font Awesome and Bootstrap-->
   <script src="https://kit.fontawesome.com/52749b7183.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

@@ -167,8 +167,8 @@ reflects Bootstrap 5's responsive grid system.
 >The updated breakpoints for my site are: 
 >| Breakpoint | Screen Size |
 >|---|---|
->| Mobile | < 768px |
->| Tablet & Desktop | 768px — 1399px |
+>| Mobile & Tablet | < 992px |
+>| Desktop | 992px — 1399px |
 >| XL Screen | 1400px+ |
 > 
 
@@ -192,6 +192,8 @@ reflects Bootstrap 5's responsive grid system.
 ## Mockups
 
 # Testing
+
+## User stories with screennshots *
 
 ## Manual Testing
 
