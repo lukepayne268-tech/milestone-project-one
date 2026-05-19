@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.border-custom {
+    border-color: #84CC16 !important;
+}
+
 /* ========================
    Navbar
 ======================== */
@@ -207,7 +211,7 @@ footer p {
 /*Media queries*/
 
 /*Increase hero section h1 font size on screens above mobile - mobile needed to be smaller to prevent my name stacking vertically*/
-@media screen and(min-width: 768px) {
+@media screen and (min-width: 768px) {
     #hero h1 {
         font-size: 3.5rem;
     }
