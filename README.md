@@ -16,7 +16,7 @@ The site is fully responsive across mobile, tablet, and desktop screen sizes and
 has been designed with accessibility and usability at its core.
 
 ## Live Site
-[View the live site here](#) ← replace with GitHub Pages URL once deployed
+[View the live site here](https://lukepayne268-tech.github.io/milestone-project-one/) ← replace with GitHub Pages URL once deployed
 
 ## Project Management
 

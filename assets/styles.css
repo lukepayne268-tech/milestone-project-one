@@ -215,6 +215,25 @@ footer p {
 }
 
 
+/*Contact section*/ 
+
+.bg-dark {
+    background-color: #36454F !important;
+    color: #F5F5F0 !important;
+}
+
+.btn-success {
+    background-color: #F5F5F0 !important;
+    border-color: #84CC16 !important;
+    color: #36454F !important;
+}
+
+.btn-success:hover {
+    background-color: #84CC16 !important;
+    border-color: #36454F !important;
+    color: #36454F !important;
+}
+
 /*Media queries*/
 
 /*Increase hero section h1 font size on screens above mobile - mobile needed to be smaller to prevent my name stacking vertically*/
