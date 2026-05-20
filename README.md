@@ -16,7 +16,7 @@ The site is fully responsive across mobile, tablet, and desktop screen sizes and
 has been designed with accessibility and usability at its core.
 
 ## Live Site
-[View the live site here](https://lukepayne268-tech.github.io/milestone-project-one/) ← replace with GitHub Pages URL once deployed
+[View the live site here](https://lukepayne268-tech.github.io/milestone-project-one/) 
 
 ## Project Management
 
@@ -91,7 +91,7 @@ The portfolio uses a three-colour palette chosen for clarity, professionalism, a
 
 | Role | Swatch | Colour | Hex |
 |---|---|---|---|
-| Background | ![Off White](https://placehold.co/15x15/F5F5F0/F5F5F0.png) | Pastel Coconut White | `#FAF0D7` |
+| Background | ![Off White](https://placehold.co/15x15/F5F5F0/F5F5F0.png) | Off White | `#FAF0D7` |
 | Primary Text / Dark Sections | ![Charcoal](https://placehold.co/15x15/36454F/36454F.png) | Charcoal | `#36454F` |
 | Accent | ![Sage Green](https://placehold.co/15x15/84CC16/84CC16.png) | Sage Green | `#84CC16` |
 
@@ -173,23 +173,61 @@ reflects Bootstrap 5's responsive grid system.
 > 
 
 
-> ### Mobile
+> ### Mobile & Tablet
 > - Displays as a single scrolling page with a collapsible navigation menu. 
 > - All sections stack vertically in a single column layout.
+> - The layout remains consistent across mobile and tablet devcices
 ![Mobile Wireframe](assets/docs/Wireframe/mobile/Mobile.png)
 
 > ### Tablet & Desktop
-> - The layout remains consistent across tablet and desktop screen sizes.
+> - The layout remains consistent across desktop screen sizes.
 ![Tablet & Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)  
 
 > ### XL Screen
-> **Pending amendments to XL wireframe:**
-> - Add profile photo to hero section and reinstate Download CV button alongside Contact Me
-> - Reduce empty space in skills section or add intro line
-> - Reduce projects from four cards to three
+> - n.b. not used as site looks good on desktop and above (>992px) due to bootstrap.
 ![XL Screen Wireframe](assets/docs/Wireframe/xl-screens/xl-screens.png)  
 
-## Mockups
+## Features
+
+### Existing Features
+
+**Fixed Navigation Bar**
+- Fully responsive navbar fixed to the top of the page
+- Collapses to a hamburger menu on mobile and tablet
+
+
+
+**Hero Section**
+- Circular profile photo with charcoal border
+- Name, tagline and short bio
+- Two CTA buttons — Contact Me and Download CV
+- Two column layout on desktop, stacked on mobile
+
+**About Section**
+- Quick facts grid — two columns on mobile, single column on desktop
+- Font Awesome icons for each fact item
+- Sage green left border on description column on desktop
+- Three paragraph bio
+
+**Technical Skills Section**
+- Eight skill icons using Font Awesome brands
+- Two column layout matching about section
+- Sage green left border on skills grid on desktop
+
+**Projects Section**
+- Four Bootstrap cards with screenshots, descriptions and links
+- Each card links to live site and GitHub repo
+- Portfolio card includes additional Project Board link
+- Cards equal height using h-100
+
+**Contact Section**
+- Formspree powered contact form
+- Name, email, subject and message fields
+- Styled to match site colour palette
+
+**Footer**
+- Copyright notice
+- Bootstrap attribution link with icon
 
 # Testing
 
@@ -248,7 +286,7 @@ The site was deployed to GitHub Pages using the following steps:
 5. Under **Branch** select **main** and **/root** then click **Save**
 6. Wait a few minutes then refresh the page — the live URL will appear at the top of the Pages section
 
-The live site can be found here: [Luke Payne Portfolio](#) ← replace with your GitHub Pages URL
+The live site can be found here: [Luke Payne Portfolio](https://lukepayne268-tech.github.io/milestone-project-one/)
 
 ### Local Deployment
 
