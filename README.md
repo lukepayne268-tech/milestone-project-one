@@ -38,6 +38,10 @@ Progress was tracked through the following stages:
 
 # UX Design
 
+This site was designed following the five planes of UX — Strategy, Scope, 
+Structure, Skeleton, and Surface — to ensure a user centred approach throughout 
+the planning and development process.
+
 
 > **Design Decision:** The About section was changed from a side by side layout on tablet to a stacked layout. 
 >This was decided during development as the stacked layout read > more cleanly on smaller tablet screens.
@@ -109,8 +113,6 @@ All foreground and background colour combinations were tested using the [WebAIM 
 > with `#F5F5F0` during development as it read as too yellow against the other 
 > palette colours. `#F5F5F0` provides a cleaner, more neutral off-white while 
 > retaining warmth.
-
-## !!!Need to repeat above process for dark mode if implemented!!!
 
 ## Typography
 
@@ -319,9 +321,14 @@ All written content was produced by Luke Payne.
 
 ## Media
 
+## Media
+
 | Source | Use |
 |---|---|
-| | |
+| Personal photograph | Profile photo taken in Amsterdam |
+| [Chrome DevTools](https://developer.chrome.com/) | Project screenshot captures |
+| [Adobe Firefly](https://firefly.adobe.com/) | Hero background image (if used) |
+
 
 ## Tools & Resources
 

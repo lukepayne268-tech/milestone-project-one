@@ -189,6 +189,24 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100%;
 }
 
+/*Contact Section*/
+.social-link {
+    color: #36454F;
+}
+
+.social-link:hover {
+    color: #84CC16;
+}
+
+/*Socials*/
+
+.social-text {
+    
+    font-size: 2.4rem;
+    margin-top: 8px;
+    color: #36454F;
+}
+
 
 /*Footer*/
 
