@@ -35,6 +35,14 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #84CC16 !important;
 }
 
+/* Offset anchor links for fixed navbar */
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 68px;
+}
+
 /* ========================
    Navbar
 ======================== */
