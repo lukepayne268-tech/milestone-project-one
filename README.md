@@ -234,6 +234,7 @@ reflects Bootstrap 5's responsive grid system.
 - Formspree powered contact form
 - Name, email, subject and message fields
 - Styled to match site colour palette
+- Include social links
 
 **Footer**
 
