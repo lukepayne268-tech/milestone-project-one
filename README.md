@@ -262,6 +262,7 @@ reflects Bootstrap 5's responsive grid system.
 | --------------------------------------------------------- | ------ |
 | [W3C HTML Validator](https://validator.w3.org/)           |        |
 | [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) |        |
+| [Lighthouse Score](https://shields.io)                    |        |
 
 ## Accessibility Testing
 
@@ -278,6 +279,24 @@ reflects Bootstrap 5's responsive grid system.
 | Firefox |        |
 | Safari  |        |
 | Edge    |        |
+
+## Lighthouse Audits
+Automated performance, accessibility, best practices, and SEO audits are conducted via **Lighthouse** to ensure a high-quality user experience.
+
+* **Performance:** Optimized asset delivery, image sizing, and rendering paths.
+* **Accessibility (a11y):** Verified text contrast ratios, semantic HTML structure, and screen-reader readiness.
+* **Best Practices:** Checked for secure connections, modernized APIs, and clean console logs.  
+
+
+
+
+| Validator                    | Result |
+| -----------------------------| ------ |
+| **Performance:**             |        |
+| **Accessibility (a11y):**    |        |
+| **Best Practices:**          |        |
+| **Lighthouse Score**         |        |
+
 
 ## Bugs Discovered
 
