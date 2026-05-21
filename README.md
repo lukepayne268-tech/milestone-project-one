@@ -201,9 +201,6 @@ reflects Bootstrap 5's responsive grid system.
 - Collapses to a hamburger menu on mobile and tablet
 
 **Hero Section**  
-> **Design Decision:** The About section was changed from a side by side layout on tablet to a stacked layout.
-> This was decided during development as the stacked layout read > more cleanly on smaller tablet screens.
-> I also decided to have my profile image in the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead.
 
 - Circular profile photo with charcoal border
 - Name, tagline and short bio
@@ -250,48 +247,20 @@ reflects Bootstrap 5's responsive grid system.
 
 | Feature           | Expected                                     | Testing                                                   | Result | Fix |
 | ----------------- | -------------------------------------------- | --------------------------------------------------------- | ------ | --- |
-| Navigation links  | Each link scrolls to the correct section     | Clicked each nav link                                     |        |     |
-| Contact form      | Form submits successfully via Formspree      | Completed and submitted form                              |        |     |
-| CV download       | PDF opens or downloads on click              | Clicked download CV button                                |        |     |
-| Social links      | Each link opens correct profile in a new tab | Clicked each social icon                                  |        |     |
-| Responsive layout | Site displays correctly on all screen sizes  | Tested in Chrome DevTools at 320px, 768px, 1200px, 1400px |        |     |
-| Hero CTA button   | Contact me button scrolls to contact section | Clicked button                                            |        |     |
+| Navigation links  | Each link scrolls to the correct section     | Clicked each nav link                                     |   ✅     |     |
+| Contact form      | Form submits successfully via Formspree      | Completed and submitted form                              |   ✅     |     |
+| CV download       | PDF opens or downloads on click              | Clicked download CV button                                |   ✅     |     |
+| Social links      | Each link opens correct profile in a new tab | Clicked each social icon                                  |   ✅     |     |
+| Responsive layout | Site displays correctly on all screen sizes  | Tested in Chrome DevTools at 320px, 768px, 1200px, 1400px |   ✅     |     |
+| Hero CTA button   | Contact me button scrolls to contact section | Clicked button                                            |    ✅    |     |
 
 ## Validator Testing
 
 | Validator                                                                   | Result |
 | --------------------------------------------------------------------------- | ------ |
-| [W3C HTML Validator](https://validator.w3.org/)                             |        |
-| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                   |        |
-| [Lighthouse Score](https://developer.chrome.com/docs/lighthouse/overview)   |        |
-
-> - Initial lighthouse test after site completiom showed performance issues - tested on 21/05/26.
-
-
-
-![alt text](<assets/images/lighthouse-initial-test .png>)
-
-
-![alt text](assets/images/initial-lighthouse-failures.png)
-
-
-![alt text](<assets/images/lighthouse-initial-metrics.png>)
-
-## Accessibility Testing
-
-| Tool                                                                     | Result                                   |
-| ------------------------------------------------------------------------ | ---------------------------------------- |
-| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | All colour combinations pass WCAG 2.1 AA |
-| [WAVE Accessibility Tool](https://wave.webaim.org/)                      |                                          |
-
-## Browser Compatibility
-
-| Browser | Result |
-| ------- | ------ |
-| Chrome  |        |
-| Firefox |        |
-| Safari  |        |
-| Edge    |        |
+| [W3C HTML Validator](assets/images/html-validtion.png)                             |✅ Pass|
+| [W3C CSS Validator](assets/images/css-validation.png)                   |✅ Pass|
+| [Lighthouse Score](assets/images/lighthouse-pass.png)   |✅ Pass|
 
 ## Lighthouse Audits
 Automated performance, accessibility, best practices, and SEO audits are conducted via **Lighthouse** to ensure a high-quality user experience.
@@ -305,10 +274,46 @@ Automated performance, accessibility, best practices, and SEO audits are conduct
 
 | Validator                    | Result |
 | -----------------------------| ------ |
-| **Performance:**             |        |
-| **Accessibility (a11y):**    |        |
-| **Best Practices:**          |        |
+| **Performance:**             |  75%  ✅    |
+| **Accessibility (a11y):**    |  95%  ✅   |
+| **Best Practices:**          |  100% ✅     |
 | **Lighthouse Score**         |        |
+> - Initial lighthouse test after site completiom showed performance issues - tested on 21/05/26.
+
+
+
+
+
+
+![alt text](<assets/images/lighthouse-initial-test .png>)
+
+
+![alt text](assets/images/initial-lighthouse-failures.png)
+
+
+![alt text](<assets/images/lighthouse-initial-metrics.png>)
+
+> - Reordered JavaScript so heaviest runs first, which brought the performance score up to 75%
+
+![alt text](assets/images/lighthouse-pass.png)
+
+## Accessibility Testing
+
+| Tool                                                                     | Result                                   |
+| ------------------------------------------------------------------------ | ---------------------------------------- |
+| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | All colour combinations pass WCAG 2.1 AA |
+| [WAVE Accessibility Tool](assets/images/wave-pass.png)                      | Finished site passes WCAG AAA  with a contrast ratio 8:59:1  |
+
+## Browser Compatibility
+
+| Browser | Result |
+| ------- | ------ |
+| Chrome  |        |
+| Firefox |        |
+| Safari  |        |
+| Edge    |        |
+
+
 
 
 ## Bugs Discovered
@@ -360,8 +365,6 @@ To run this project locally:
 ## Content
 
 All written content was produced by Luke Payne.
-
-## Media
 
 ## Media
 
