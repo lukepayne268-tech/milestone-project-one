@@ -43,9 +43,7 @@ This site was designed following the five planes of UX — Strategy, Scope,
 Structure, Skeleton, and Surface — to ensure a user centred approach throughout
 the planning and development process.
 
-> **Design Decision:** The About section was changed from a side by side layout on tablet to a stacked layout.
-> This was decided during development as the stacked layout read > more cleanly on smaller tablet screens.
-> I also decided to have my profile image in the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead.
+
 
 ## Business Goals
 
@@ -202,7 +200,10 @@ reflects Bootstrap 5's responsive grid system.
 - Fully responsive navbar fixed to the top of the page
 - Collapses to a hamburger menu on mobile and tablet
 
-**Hero Section**
+**Hero Section**  
+> **Design Decision:** The About section was changed from a side by side layout on tablet to a stacked layout.
+> This was decided during development as the stacked layout read > more cleanly on smaller tablet screens.
+> I also decided to have my profile image in the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead.
 
 - Circular profile photo with charcoal border
 - Name, tagline and short bio
@@ -258,11 +259,23 @@ reflects Bootstrap 5's responsive grid system.
 
 ## Validator Testing
 
-| Validator                                                 | Result |
-| --------------------------------------------------------- | ------ |
-| [W3C HTML Validator](https://validator.w3.org/)           |        |
-| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) |        |
-| [Lighthouse Score](https://shields.io)                    |        |
+| Validator                                                                   | Result |
+| --------------------------------------------------------------------------- | ------ |
+| [W3C HTML Validator](https://validator.w3.org/)                             |        |
+| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)                   |        |
+| [Lighthouse Score](https://developer.chrome.com/docs/lighthouse/overview)   |        |
+
+> - Initial lighthouse test after site completiom showed performance issues - tested on 21/05/26.
+
+
+
+![alt text](<assets/images/lighthouse-initial-test .png>)
+
+
+![alt text](assets/images/initial-lighthouse-failures.png)
+
+
+![alt text](<assets/images/lighthouse-initial-metrics.png>)
 
 ## Accessibility Testing
 
