@@ -186,15 +186,13 @@ reflects Bootstrap 5's responsive grid system.
 - All sections stack vertically in a single column layout.
 - The layout remains consistent across mobile and tablet devices.
 
-![Mobile Wireframe](assets/docs/Wireframe/mobile/Mobile.png)
+[View Mobile & Tablet Wireframe](assets/docs/Wireframe/mobile/Mobile.png)
 
 ### Desktop
 
 - The layout moves to a two column structure on desktop screens.
 
-![Tablet & Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)
-
----
+[View Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)
 
 ### XL Screen
 
@@ -202,7 +200,7 @@ reflects Bootstrap 5's responsive grid system.
   The final site handles XL screens effectively using Bootstrap's responsive
   grid without requiring a separate XL layout.
 
-![XL Screen Wireframe](assets/docs/Wireframe/xl-screens/xl-screens.png)
+[View XL Screen Wireframe](assets/docs/Wireframe/xl-screens/xl-screens.png)
 
 ---
 
