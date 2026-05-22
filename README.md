@@ -526,9 +526,11 @@ The following features were tested across all browsers:
 
 ---
 
-## Bugs Discovered
+## Known Bugs
 
-No bugs were discovered during testing.
+| Bug | Status |
+|-----|--------|
+| Navbar appears cut off at top of viewport when scrolling | Working on a solution currently |
 
 ---
 
