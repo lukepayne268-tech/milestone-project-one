@@ -474,6 +474,12 @@ accessibility and best practices across both mobile and desktop.
 
 ---
 
+## Known Limitations
+
+- **Unused CSS** — Bootstrap's full stylesheet loads via CDN, contributing ~45KB of unused CSS. This cannot be resolved without a build tool such as Webpack or Vite and is considered acceptable for a Milestone 1 project.
+- **Render-blocking resources** — Bootstrap and Google Fonts are loaded via CDN and may block rendering on slower connections. This is a known trade-off of using CDN-hosted frameworks.
+- **Accessibility score 95** — Two Lighthouse flags relate to icon-only links and duplicate CV download links. These do not affect usability for the vast majority of users.
+
 ## Accessibility Testing
 
 | Tool | Result |
