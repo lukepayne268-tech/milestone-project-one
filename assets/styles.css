@@ -181,6 +181,26 @@ section {
     padding-top: 40px;
 }
 
+.fact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-size: 0.9rem;
+    color: #36454F;
+    padding: 0.5rem;
+    border-bottom: 1px solid #EAEAE4;
+    text-align: left;
+}
+
+.fact-item i {
+    color: #36454F;
+    width: 20px;
+    min-width: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
 
 
 /*Projects section*/
@@ -272,6 +292,16 @@ footer p {
 @media (max-width: 991px) {
     .border-custom {
         border-left: none !important;
+    }
+
+    /* Center fact items on mobile/tablet for better layout */
+    .fact-item {
+        justify-content: start;
+        text-align: start;
+    }
+
+    .fact-item i {
+        margin-right: 0;
     }
 }
 
