@@ -268,4 +268,10 @@ footer p {
         font-size: 3.5rem;
     }
 }
+/*Remove left border on skills section on smaller screens to prevent it from looking odd when stacked vertically*/
+@media (max-width: 991px) {
+    .border-custom {
+        border-left: none !important;
+    }
+}
 
