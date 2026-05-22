@@ -194,6 +194,8 @@ reflects Bootstrap 5's responsive grid system.
 
 ![Tablet & Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)
 
+---
+
 ### XL Screen
 
 - The XL wireframe was produced during planning to explore wider screen layouts.
@@ -264,6 +266,8 @@ reflects Bootstrap 5's responsive grid system.
 
 # Testing
 
+---
+
 ## Manual Testing
 
 | Feature | Expected | Testing | Result | Fix |
@@ -279,6 +283,7 @@ reflects Bootstrap 5's responsive grid system.
 
 ## User Story tests
 
+---
 
 ## Validator Testing
 
@@ -293,6 +298,8 @@ reflects Bootstrap 5's responsive grid system.
 
 Lighthouse audits were conducted via Chrome DevTools to assess performance,
 accessibility, best practices, and SEO across both mobile and desktop.
+
+---
 
 ### Mobile
 
@@ -322,6 +329,8 @@ accessibility, best practices, and SEO across both mobile and desktop.
   limitation.
 
   ![Lighthouse after resizing images - Mobile Score](assets/images/lighthouse-test-improved.jpg)
+  
+  --- 
 
 ### Desktop
 
@@ -359,13 +368,16 @@ accessibility, best practices, and SEO across both mobile and desktop.
 
 ## Browser Compatibility
 
-| Browser | Result |
-| --- | --- |
-| Chrome | |
-| Firefox | |
-| Safari | |
-| Edge | |
+All major browsers were tested using the live deployed site at the final stage 
+of development. The site was tested across the following browsers and passed 
+all manual tests on each.
 
+| Browser | Device | Result | Notes |
+| --- | --- | --- | --- |
+| Chrome | Windows Desktop | ✅ Pass | All features working correctly |
+| Edge | Windows Desktop | ✅ Pass | All features working correctly |
+| Firefox | Windows Desktop | ✅ Pass | All features working correctly |
+| Safari | iPhone (iOS) | ✅ Pass | All features working correctly |
 ---
 
 ## Bugs Discovered
