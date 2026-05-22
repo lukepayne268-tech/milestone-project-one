@@ -279,7 +279,128 @@ reflects Bootstrap 5's responsive grid system.
 
 ---
 
-## User Story tests
+## User Story Tests
+
+### As a Code Institute assessor
+
+**I want to see a clearly structured, well-documented portfolio site so that I can evaluate the student's HTML and CSS skills.**
+
+The site uses semantic HTML5 elements throughout including `<nav>`, `<main>`, `<section>` and `<footer>`. CSS is organised into clearly commented sections. Both HTML and CSS pass W3C validation with no errors.
+
+[View HTML Validation Result](assets/images/html-validtion.png)  
+[View CSS Validation Result](assets/images/css-validation.png)
+
+---
+
+**I want to see evidence of responsive design so that I can confirm the site works across different screen sizes.**
+
+The site is fully responsive across mobile, tablet, desktop and XL screen sizes using Bootstrap 5's grid system and custom CSS media queries.
+
+[View Mobile Layout](assets/images/mobile-user-story-comp -1.jpg)  
+[View Tablet Layout](assets/images/tablet-user-story-comp.jpg)  
+[View Desktop Layout](assets/images/desktop-user-story-comp.jpg)
+
+---
+
+**I want to be able to navigate between all sections of the site easily so that I can assess the full scope of the project.**
+
+A fixed navbar is present at all times with anchor links to each section. On mobile the navbar collapses to a hamburger menu. Custom JavaScript ensures the menu closes after navigation and smooth scrolling is applied.
+
+[View Navbar Desktop](assets/docs/testing/navbar-desktop.png)  
+[View Navbar Mobile](assets/images/navbar-user-story-comp.jpg)
+
+---
+
+**I want to read a thorough README so that I can understand the developer's planning process, design decisions, and testing approach.**
+
+This README documents the full development process including UX planning, user stories, wireframes, colour scheme, typography, features, testing, deployment and credits.
+
+[View README on GitHub](https://github.com/lukepayne268-tech/milestone-project-one)
+
+---
+
+**I want to see the project properly version controlled and deployed so that I can verify the development process and access the live site.**
+
+The project is hosted in a public GitHub repository with a full commit history reflecting ongoing development. The site is deployed via GitHub Pages.
+
+[View GitHub Repository](https://github.com/lukepayne268-tech/milestone-project-one)  
+[View Live Site](https://lukepayne268-tech.github.io/milestone-project-one/)  
+[View Project Board](https://github.com/users/lukepayne268-tech/projects/4)
+
+---
+
+### As a recruiter / employer
+
+**I want to immediately understand who the developer is and what they do so that I can quickly assess their suitability.**
+
+The hero section displays immediately on page load with the developer's name, professional title, and a short tagline. A profile photo and two CTAs are visible above the fold on all screen sizes.
+
+[View Hero Section](assets/images/hero-user-story-comp.jpg)
+
+---
+
+**I want to see examples of their projects so that I can evaluate the quality and range of their work.**
+
+The projects section contains four Bootstrap cards each with a screenshot, description, technology tags, and links to the live site and GitHub repository.
+
+[View Projects Section](assets/images/projects-user-story-comp.jpg)
+
+---
+
+**I want to see a clear list of their technical skills so that I can match them against a job requirement.**
+
+The technical skills section displays eight skills with Font Awesome icons and labels in a responsive grid layout.
+
+[View Skills Section](assets/images/skills-user-story-comp.jpg)
+
+---
+
+**I want to find contact details easily so that I can get in touch about opportunities.**
+
+The contact section is accessible from the navbar and contains a Formspree powered contact form alongside LinkedIn, GitHub and email links.
+
+[View Contact Section](assets/images/contact-me-user-story.png)
+
+---
+
+**I want to be able to download or view a CV so that I can review their full background.**
+
+A Download CV button is present in the hero section on all screen sizes and in the navbar on XL screens. Clicking it downloads a PDF.
+
+[View CV Download Button](assets/images/hero-download-cv-.png)
+
+---
+
+### As a general visitor
+
+**I want the site to load quickly and be easy to navigate so that I can find what I need without frustration.**
+
+The site achieves a Lighthouse performance score of 100 on desktop and 78 on mobile. All images are compressed and converted to WebP format. Navigation is intuitive with clearly labelled anchor links.
+
+[View Lighthouse Desktop Score](assets/images/desktop-lighthouse.png)  
+[View Lighthouse Mobile Score](assets/images/lighthouse-pass.png)
+
+---
+
+**I want the site to work well on my mobile device so that I can browse comfortably on any screen.**
+
+The site is fully responsive and was tested on Chrome DevTools at 320px, 768px, 1200px and 1400px as well as on a real iPhone via Safari.
+
+[View Mobile Screenshots](assets/images/mobile-user-story-comp-1.jpg)    
+[View Mobile Screenshots](assets/images/mobile-user-story-comp-2.jpg)
+
+
+---
+
+**I want to find links to the developer's GitHub so that I can explore their code and other projects.**
+
+GitHub links are present in the contact section social buttons and in each project card footer. All links open in a new tab.
+
+[View GitHub Links](assets/images/socials-user-story -comp.jpg)
+
+
+
+
 
 ---
 
@@ -288,14 +409,14 @@ reflects Bootstrap 5's responsive grid system.
 | Validator | Result |
 | --- | --- |
 | [W3C HTML Validator](https://validator.w3.org/) | ✅ Pass — no errors |
-| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | ✅ Pass — no errors |
+| [W3C CSS Validator](assets/images/css-validation-user-story-comp.jpg) | ✅ Pass — no errors |
 
 ---
 
 ## Lighthouse Testing
 
 Lighthouse audits were conducted via Chrome DevTools to assess performance,
-accessibility, best practices, and SEO across both mobile and desktop.
+accessibility and best practices across both mobile and desktop.
 
 ---
 
@@ -376,6 +497,27 @@ all manual tests on each.
 | Edge | Windows Desktop | ✅ Pass | All features working correctly |
 | Firefox | Windows Desktop | ✅ Pass | All features working correctly |
 | Safari | iPhone (iOS) | ✅ Pass | All features working correctly |
+
+## Browser Testing Checklist
+
+The following features were tested across all browsers:
+
+| Test | What was checked |
+| --- | --- |
+| Page loads correctly | No broken layout, missing fonts or images |
+| Navbar | Fixed to top, hamburger works on mobile |
+| Hero section | Photo, buttons, layout correct |
+| About section | Facts grid, border, text layout |
+| Skills section | Icons display correctly |
+| Projects section | Cards, images, buttons all work |
+| Contact form | Form submits, fields work |
+| Social links | Open in new tab |
+| CV download | Downloads correctly |
+| Footer | Displays correctly |
+| Responsive layout | Resized browser window to check breakpoints |
+
+
+
 ---
 
 ## Bugs Discovered
