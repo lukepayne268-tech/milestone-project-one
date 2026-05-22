@@ -305,7 +305,7 @@ accessibility, best practices, and SEO across both mobile and desktop.
 ![!\[Lighthouse Initial Test\](assets/images/lighthouse-initial-test.png)](<assets/images/lighthouse-initial-test .png>)
 ![Lighthouse Initial Failures](assets/images/initial-lighthouse-failures.png)
 ![Lighthouse Initial Metrics](assets/images/lighthouse-initial-metrics.png)
-![Lighthouse with compressed images - Score](assets/images/lighthouse-pass.png)
+![Lighthouse with compressed images - Mobile Score](assets/images/lighthouse-pass.png)
 
 **Performance notes:**
 
@@ -321,17 +321,28 @@ accessibility, best practices, and SEO across both mobile and desktop.
   this cannot be resolved without a build tool and is documented as a known
   limitation.
 
-  ![Lighthouse after resizing images - Score](assets/images/lighthouse-test-improved.jpg)
+  ![Lighthouse after resizing images - Mobile Score](assets/images/lighthouse-test-improved.jpg)
 
 ### Desktop
 
 | Category | Score | Status |
 | --- | --- | --- |
-| Performance | | |
-| Accessibility | | |
-| Best Practices | | |
+| Performance | 100 | 🟢 Perfect |
+| Accessibility | 95 | 🟢 Excellent |
+| Best Practices | 100 | 🟢 Perfect |
+![Lighthouse Desktop](assets/images/desktop-lighthouse.png)
 
-> Desktop Lighthouse scores to be completed.
+**Performance notes:**
+
+- Perfect 100 performance score on desktop.
+- The accessibility score of 95 reflects two known items flagged by Lighthouse:
+  "Links do not have a discernible name" — relating to icon-only links — and
+  "Identical links have the same purpose" — relating to duplicate CV download
+  links in the navbar and hero section. These are documented as known limitations
+  and do not affect the usability of the site for the vast majority of users.
+- Remaining diagnostics (unused CSS, render-blocking requests) are attributed to
+  Bootstrap and Google Fonts CDN dependencies and are considered acceptable for
+  a Milestone 1 project without a build tool.
 
 ---
 
