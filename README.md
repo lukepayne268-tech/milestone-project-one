@@ -37,13 +37,13 @@ Progress was tracked through the following stages:
 
 [View the Project Board here](https://github.com/users/lukepayne268-tech/projects/4)
 
+---
+
 # UX Design
 
 This site was designed following the five planes of UX — Strategy, Scope,
 Structure, Skeleton, and Surface — to ensure a user centred approach throughout
 the planning and development process.
-
-
 
 ## Business Goals
 
@@ -62,7 +62,7 @@ The site serves as both a **professional marketing tool** and a **live demonstra
 of my current capabilities — the quality of the site itself is as much a part of
 the portfolio as the projects it showcases.
 
-### User stories
+## User Stories
 
 **As a Code Institute assessor,**
 
@@ -86,31 +86,35 @@ the portfolio as the projects it showcases.
 - I want the site to work well on my mobile device so that I can browse comfortably on any screen.
 - I want to find links to the developer's GitHub so that I can explore their code and other projects.
 
+---
+
 ## Colour Scheme
 
 The portfolio uses a three-colour palette chosen for clarity, professionalism, and accessibility.
 
-| Role                         | Swatch                                                      | Colour     | Hex       |
-| ---------------------------- | ----------------------------------------------------------- | ---------- | --------- |
-| Background                   | ![Off White](https://placehold.co/15x15/F5F5F0/F5F5F0.png)  | Off White  | `#FAF0D7` |
-| Primary Text / Dark Sections | ![Charcoal](https://placehold.co/15x15/36454F/36454F.png)   | Charcoal   | `#36454F` |
-| Accent                       | ![Sage Green](https://placehold.co/15x15/84CC16/84CC16.png) | Sage Green | `#84CC16` |
+| Role | Swatch | Colour | Hex |
+| --- | --- | --- | --- |
+| Background | ![Off White](https://placehold.co/15x15/F5F5F0/F5F5F0.png) | Off White | `#F5F5F0` |
+| Primary Text / Dark Sections | ![Charcoal](https://placehold.co/15x15/36454F/36454F.png) | Charcoal | `#36454F` |
+| Accent | ![Sage Green](https://placehold.co/15x15/84CC16/84CC16.png) | Sage Green | `#84CC16` |
 
 ### Accessibility
 
 All foreground and background colour combinations were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure compliance with WCAG 2.1 AA standards.
 
-| Foreground           | Background           | Ratio  | Result  |
-| -------------------- | -------------------- | ------ | ------- |
-| Charcoal `#36454F`   | Off White `#F5F5F0`  | 9.05:1 | ✅ Pass |
-| Off White `#F5F5F0`  | Charcoal `#36454F`   | 9.05:1 | ✅ Pass |
-| Sage Green `#84CC16` | Charcoal `#36454F`   | 5.01:1 | ✅ Pass |
-| Charcoal `#36454F`   | Sage Green `#84CC16` | 5.01:1 | ✅ Pass |
+| Foreground | Background | Ratio | Result |
+| --- | --- | --- | --- |
+| Charcoal `#36454F` | Off White `#F5F5F0` | 9.05:1 | ✅ Pass |
+| Off White `#F5F5F0` | Charcoal `#36454F` | 9.05:1 | ✅ Pass |
+| Sage Green `#84CC16` | Charcoal `#36454F` | 5.01:1 | ✅ Pass |
+| Charcoal `#36454F` | Sage Green `#84CC16` | 5.01:1 | ✅ Pass |
 
 > **Design Decision:** The original background colour `#FAF0D7` was replaced
 > with `#F5F5F0` during development as it read as too yellow against the other
 > palette colours. `#F5F5F0` provides a cleaner, more neutral off-white while
 > retaining warmth.
+
+---
 
 ## Typography
 
@@ -119,10 +123,10 @@ selected to complement the warm, professional feel of the colour palette.
 
 ### Fonts Used
 
-| Role      | Font                                                       | Weight   |
-| --------- | ---------------------------------------------------------- | -------- |
-| Headings  | [Montserrat](https://fonts.google.com/specimen/Montserrat) | 600, 700 |
-| Body Text | [Lato](https://fonts.google.com/specimen/Lato)             | 400, 700 |
+| Role | Font | Weight |
+| --- | --- | --- |
+| Headings | [Montserrat](https://fonts.google.com/specimen/Montserrat) | 600, 700 |
+| Body Text | [Lato](https://fonts.google.com/specimen/Lato) | 400, 700 |
 
 ### Reasoning
 
@@ -142,10 +146,12 @@ each section naturally.
 
 In the event Google Fonts fails to load, the following fallback stack is used:
 
-| Role      | Fallback   |
-| --------- | ---------- |
-| Headings  | sans-serif |
+| Role | Fallback |
+| --- | --- |
+| Headings | sans-serif |
 | Body Text | sans-serif |
+
+---
 
 ## Wireframes
 
@@ -153,39 +159,50 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) to plan the
 layout and structure of the site across all screen sizes. Each breakpoint
 reflects Bootstrap 5's responsive grid system.
 
-| Breakpoint       | Screen Size    |
-| ---------------- | -------------- |
-| Mobile           | < 768px        |
+| Breakpoint | Screen Size |
+| --- | --- |
+| Mobile | < 768px |
 | Tablet & Desktop | 768px — 1399px |
-| XL Screen        | 1400px+        |
+| XL Screen | 1400px+ |
 
-> **Design Decision:** The About section was changed from a side by side layout on tablet, as seen in my wireframes below, to a stacked layout.
-> This was decided during development as the stacked layout read more cleanly on smaller tablet screens.
-> I also decided to move my profile image to the hero section and not the about me section, opting to add quick-facts in the left side of the about section instead.
+> **Design Decision:** The About section was changed from a side by side layout
+> on tablet, as seen in the wireframes below, to a stacked layout. This was
+> decided during development as the stacked layout read more cleanly on smaller
+> tablet screens. The profile image was also moved to the hero section rather
+> than the about section, with quick-facts added to the left column of the about
+> section instead.
 >
-> The updated breakpoints for my site are:
+> The updated breakpoints for the site are:
+>
 > | Breakpoint | Screen Size |
-> |---|---|
+> | --- | --- |
 > | Mobile & Tablet | < 992px |
 > | Desktop | 992px — 1399px |
 > | XL Screen | 1400px+ |
 
-> ### Mobile & Tablet
->
-> - Displays as a single scrolling page with a collapsible navigation menu.
-> - All sections stack vertically in a single column layout.
-> - The layout remains consistent across mobile and tablet devcices
->   ![Mobile Wireframe](assets/docs/Wireframe/mobile/Mobile.png)
+### Mobile & Tablet
 
-> ### Tablet & Desktop
->
-> - The layout remains consistent across desktop screen sizes.
->   ![Tablet & Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)
+- Displays as a single scrolling page with a collapsible navigation menu.
+- All sections stack vertically in a single column layout.
+- The layout remains consistent across mobile and tablet devices.
 
-> ### XL Screen
->
-> - n.b. not used as site looks good on desktop and above (>992px) due to bootstrap.
->   ![XL Screen Wireframe](assets/docs/Wireframe/xl-screens/xl-screens.png)
+![Mobile Wireframe](assets/docs/Wireframe/mobile/Mobile.png)
+
+### Desktop
+
+- The layout moves to a two column structure on desktop screens.
+
+![Tablet & Desktop Wireframe](assets/docs/Wireframe/tablet-desktop/tablet-desktop.png)
+
+### XL Screen
+
+- The XL wireframe was produced during planning to explore wider screen layouts.
+  The final site handles XL screens effectively using Bootstrap's responsive
+  grid without requiring a separate XL layout.
+
+![XL Screen Wireframe](assets/docs/Wireframe/xl-screens/xl-screens.png)
+
+---
 
 ## Features
 
@@ -193,14 +210,18 @@ reflects Bootstrap 5's responsive grid system.
 
 **Navigation Functionality**
 
-- Custom JavaScript was implemented to enhance navigation behaviour across devices. The script listens for navigation link clicks, closes the expanded Bootstrap mobile menu after selection, and enables smooth scrolling between in-page sections while accounting for the fixed navigation bar.
+- Custom JavaScript was implemented to enhance navigation behaviour across
+  devices. The script listens for navigation link clicks, closes the expanded
+  Bootstrap mobile menu after selection, and enables smooth scrolling between
+  in-page sections while accounting for the fixed navigation bar.
 
 **Fixed Navigation Bar**
 
 - Fully responsive navbar fixed to the top of the page
 - Collapses to a hamburger menu on mobile and tablet
+- Download CV button visible on XL screens only
 
-**Hero Section**  
+**Hero Section**
 
 - Circular profile photo with charcoal border
 - Name, tagline and short bio
@@ -232,95 +253,113 @@ reflects Bootstrap 5's responsive grid system.
 - Formspree powered contact form
 - Name, email, subject and message fields
 - Styled to match site colour palette
-- Include social links
+- Social links — LinkedIn, GitHub, and email
 
 **Footer**
 
 - Copyright notice
 - Bootstrap attribution link with icon
 
-# Testing
+---
 
-## User stories with screennshots \*
+# Testing
 
 ## Manual Testing
 
-| Feature           | Expected                                     | Testing                                                   | Result | Fix |
-| ----------------- | -------------------------------------------- | --------------------------------------------------------- | ------ | --- |
-| Navigation links  | Each link scrolls to the correct section     | Clicked each nav link                                     |   ✅     |     |
-| Contact form      | Form submits successfully via Formspree      | Completed and submitted form                              |   ✅     |     |
-| CV download       | PDF opens or downloads on click              | Clicked download CV button                                |   ✅     |     |
-| Social links      | Each link opens correct profile in a new tab | Clicked each social icon                                  |   ✅     |     |
-| Responsive layout | Site displays correctly on all screen sizes  | Tested in Chrome DevTools at 320px, 768px, 1200px, 1400px |   ✅     |     |
-| Hero CTA button   | Contact me button scrolls to contact section | Clicked button                                            |    ✅    |     |
+| Feature | Expected | Testing | Result | Fix |
+| --- | --- | --- | --- | --- |
+| Navigation links | Each link scrolls to the correct section | Clicked each nav link | ✅ Pass | — |
+| Contact form | Form submits successfully via Formspree | Completed and submitted form | ✅ Pass | — |
+| CV download | PDF opens or downloads on click | Clicked download CV button | ✅ Pass | — |
+| Social links | Each link opens correct profile in a new tab | Clicked each social icon | ✅ Pass | — |
+| Responsive layout | Site displays correctly on all screen sizes | Tested in Chrome DevTools at 320px, 768px, 1200px, 1400px | ✅ Pass | — |
+| Hero CTA button | Contact me button scrolls to contact section | Clicked button | ✅ Pass | — |
+
+---
+
+## User Story tests
+
 
 ## Validator Testing
 
-| Validator                                                                   | Result |
-| --------------------------------------------------------------------------- | ------ |
-| [W3C HTML Validator](assets/images/html-validtion.png)                             |✅ Pass|
-| [W3C CSS Validator](assets/images/css-validation.png)                   |✅ Pass|
-| [Lighthouse Score](assets/images/lighthouse-pass.png)   |✅ Pass|
+| Validator | Result |
+| --- | --- |
+| [W3C HTML Validator](https://validator.w3.org/) | ✅ Pass — no errors |
+| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | ✅ Pass — no errors |
 
-## Lighthouse Audits
-Automated performance, accessibility, best practices, and SEO audits are conducted via **Lighthouse** to ensure a high-quality user experience.
+---
 
-* **Performance:** Optimized asset delivery, image sizing, and rendering paths.
-* **Accessibility (a11y):** Verified text contrast ratios, semantic HTML structure, and screen-reader readiness.
-* **Best Practices:** Checked for secure connections, modernized APIs, and clean console logs.  
+## Lighthouse Testing
 
+Lighthouse audits were conducted via Chrome DevTools to assess performance,
+accessibility, best practices, and SEO across both mobile and desktop.
 
+### Mobile
 
+| Category | Score | Status |
+| --- | --- | --- |
+| Performance | 78 | 🟡 Good |
+| Accessibility | 95 | 🟢 Excellent |
+| Best Practices | 100 | 🟢 Perfect |
 
-| Validator                    | Result |
-| -----------------------------| ------ |
-| **Performance:**             |  75%  ✅    |
-| **Accessibility (a11y):**    |  95%  ✅   |
-| **Best Practices:**          |  100% ✅     |
-| **Lighthouse Score**         |        |
-> - Initial lighthouse test after site completiom showed performance issues - tested on 21/05/26.
+![!\[Lighthouse Initial Test\](assets/images/lighthouse-initial-test.png)](<assets/images/lighthouse-initial-test .png>)
+![Lighthouse Initial Failures](assets/images/initial-lighthouse-failures.png)
+![Lighthouse Initial Metrics](assets/images/lighthouse-initial-metrics.png)
+![Lighthouse with compressed images - Score](assets/images/lighthouse-pass.png)
 
+**Performance notes:**
 
+- Initial performance score was 74. JavaScript load order was reordered so the
+  heaviest scripts run first, improving the score to 75.
+- All images were resized and compressed using [Squoosh](https://squoosh.app)
+  and converted to WebP format, improving the score to 78.
+- Remaining performance limitations are due to Bootstrap and Google Fonts CSS
+  being render-blocking resources — this is a known limitation of using CDN
+  hosted frameworks without a build tool and is considered acceptable for a
+  Milestone 1 project.
+- Unused CSS (45KB) is attributed to Bootstrap loading its full stylesheet —
+  this cannot be resolved without a build tool and is documented as a known
+  limitation.
 
+  ![Lighthouse after resizing images - Score](assets/images/lighthouse-test-improved.jpg)
 
+### Desktop
 
+| Category | Score | Status |
+| --- | --- | --- |
+| Performance | | |
+| Accessibility | | |
+| Best Practices | | |
 
-![alt text](<assets/images/lighthouse-initial-test .png>)
+> Desktop Lighthouse scores to be completed.
 
-
-![alt text](assets/images/initial-lighthouse-failures.png)
-
-
-![alt text](<assets/images/lighthouse-initial-metrics.png>)
-
-> - Reordered JavaScript so heaviest runs first, which brought the performance score up to 75%
-
-![alt text](assets/images/lighthouse-pass.png)
+---
 
 ## Accessibility Testing
 
-| Tool                                                                     | Result                                   |
-| ------------------------------------------------------------------------ | ---------------------------------------- |
+| Tool | Result |
+| --- | --- |
 | [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | All colour combinations pass WCAG 2.1 AA |
-| [WAVE Accessibility Tool](assets/images/wave-pass.png)                      | Finished site passes WCAG AAA  with a contrast ratio 8:59:1  |
+| [WAVE Accessibility Tool](https://wave.webaim.org/) | Passes WCAG AAA with a contrast ratio of 8.59:1 |
+
+![WAVE Pass](assets/images/wave-pass.png)
+
+---
 
 ## Browser Compatibility
 
 | Browser | Result |
-| ------- | ------ |
-| Chrome  |        |
-| Firefox |        |
-| Safari  |        |
-| Edge    |        |
+| --- | --- |
+| Chrome | |
+| Firefox | |
+| Safari | |
+| Edge | |
 
-
-
+---
 
 ## Bugs Discovered
 
-| Bug | Fix |
-| --- | --- |
-|     |     |
+No bugs were discovered during testing.
 
 ---
 
@@ -333,9 +372,11 @@ The site was deployed to GitHub Pages using the following steps:
 3. Click **Pages** in the left hand menu
 4. Under **Source** select **Deploy from a branch**
 5. Under **Branch** select **main** and **/root** then click **Save**
-6. Wait a few minutes then refresh the page — the live URL will appear at the top of the Pages section
+6. Wait a few minutes then refresh the page — the live URL will appear at the
+   top of the Pages section
 
-The live site can be found here: [Luke Payne Portfolio](https://lukepayne268-tech.github.io/milestone-project-one/)
+The live site can be found here:
+[Luke Payne Portfolio](https://lukepayne268-tech.github.io/milestone-project-one/)
 
 ### Local Deployment
 
@@ -354,13 +395,14 @@ To run this project locally:
 
 ## Code
 
-| Source                                                                          | Use                                          |
-| ------------------------------------------------------------------------------- | -------------------------------------------- |
-| [Bootstrap 5](https://getbootstrap.com/)                                        | Responsive grid, navbar, and card components |
-| [Bootstrap JS](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | Navbar toggle and interactive components     |
-| [Formspree](https://formspree.io/)                                              | Contact form submission handling             |
-| [Font Awesome](https://fontawesome.com/)                                        | Icons throughout the site                    |
-| [Google Fonts](https://fonts.google.com/)                                       | Montserrat and Lato typefaces                |
+| Source | Use |
+| --- | --- |
+| [Bootstrap 5](https://getbootstrap.com/) | Responsive grid, navbar, and card components |
+| [Bootstrap JS](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | Navbar toggle and interactive components |
+| [Formspree](https://formspree.io/) | Contact form submission handling |
+| [Font Awesome](https://fontawesome.com/) | Icons throughout the site |
+| [Google Fonts](https://fonts.google.com/) | Montserrat and Lato typefaces |
+| Navbar collapse script | JavaScript to collapse the mobile navbar on anchor link click — adapted from a community solution to a common Bootstrap navigation pattern |
 
 ## Content
 
@@ -368,22 +410,24 @@ All written content was produced by Luke Payne.
 
 ## Media
 
-| Source                                           | Use                              |
-| ------------------------------------------------ | -------------------------------- |
-| Personal photograph                              | Profile photo taken in Amsterdam |
-| [Chrome DevTools](https://developer.chrome.com/) | Project screenshot captures      |
-| [Adobe Firefly](https://firefly.adobe.com/)      | Hero background image (if used)  |
+| Source | Use |
+| --- | --- |
+| Personal photograph | Profile photo taken in Amsterdam |
+| [Chrome DevTools](https://developer.chrome.com/) | Project screenshot captures |
 
 ## Tools & Resources
 
-| Tool                                                                     | Use                                          |
-| ------------------------------------------------------------------------ | -------------------------------------------- |
-| [Balsamiq](https://balsamiq.com/)                                        | Wireframe design                             |
-| [Bootstrap 5](https://getbootstrap.com/)                                 | Responsive grid, navbar, and card components |
-| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | Colour accessibility testing                 |
-| [TinyPNG](https://tinypng.com/)                                          | Image compression                            |
-| [Google Fonts](https://fonts.google.com/)                                | Font selection and import                    |
-| [Font Awesome](https://fontawesome.com/)                                 | Icon library                                 |
+| Tool | Use |
+| --- | --- |
+| [Balsamiq](https://balsamiq.com/) | Wireframe design |
+| [Bootstrap 5](https://getbootstrap.com/) | Responsive grid, navbar, and card components |
+| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | Colour accessibility testing |
+| [TinyPNG](https://tinypng.com/) | Image compression |
+| [Squoosh](https://squoosh.app/) | Image resizing and WebP conversion |
+| [Google Fonts](https://fonts.google.com/) | Font selection and import |
+| [Font Awesome](https://fontawesome.com/) | Icon library |
+| [Lighthouse](https://developer.chrome.com/docs/lighthouse/) | Performance and accessibility auditing |
+| [WAVE](https://wave.webaim.org/) | Accessibility auditing |
 
 ## AI Assistance
 
