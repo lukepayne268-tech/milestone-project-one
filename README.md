@@ -166,7 +166,7 @@ reflects Bootstrap 5's responsive grid system.
 | XL Screen | 1400px+ |
 
 > **Design Decision:** The About section was changed from a side by side layout
-> on tablet, as seen in the wireframes below, to a stacked layout. This was
+> on tablet, as seen in the wireframes above, to a stacked layout, shown below. This was
 > decided during development as the stacked layout read more cleanly on smaller
 > tablet screens. The profile image was also moved to the hero section rather
 > than the about section, with quick-facts added to the left column of the about
