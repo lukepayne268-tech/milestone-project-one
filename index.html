@@ -57,7 +57,7 @@
           <!--Left column - image and buttons-->
           <div class="col-12 col-lg-5 text-center">
             <div class="hero-profile-img">
-              <img src="assets/images/profile pic.jpg" alt="Luke Payne - profile photo">
+              <img src="assets/images/profile-pic.jpg" alt="Luke Payne - profile photo">
             </div>
             <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-6">
               <a href="#contact" class="btn btn-dark">Contact Me</a>
@@ -83,10 +83,10 @@
           <!--2 column grid on mobile, single column on tablet/desktop-->
           <!--Left column - quick facts-->
           <div class="col-12 col-lg-6 mb-4">
-    <div class="col-12 col-md-12 text-lg-start">
-        <h2 class="text-center text-lg-start">About</h2>
-    </div>
-    <div class="row g-2 mt-3 about-facts">
+            <div class="col-12 col-md-12 text-lg-start">
+              <h2 class="text-center text-lg-start">About</h2>
+            </div>
+            <div class="row g-2 mt-3 about-facts">
               <div class="col-6 text-center text-lg-start">
                 <div class="fact-item">
                   <i class="fa-solid fa-location-dot"></i> Cambridgeshire
@@ -121,7 +121,8 @@
           </div>
 
           <!--Right column - description with border-->
-          <div class="border-start border-3 border-custom border-primary col-12 col-lg-6 mt-4 mt-lg-5 border-0 border-lg-start">
+          <div
+            class="border-start border-3 border-custom border-primary col-12 col-lg-6 mt-4 mt-lg-5 border-0 border-lg-start">
             <p>Hi, I'm Luke. For most of my career I worked in operations at Anglian Water —
               managing teams, delivering projects, and spending a lot of time
               working alongside technology that was changing how water companies
@@ -351,8 +352,7 @@
           </div>
 
           <!-- Right column - socials -->
-          <div
-            class="col-12 col-xl-4 d-flex flex-column justify-content-center align-items-center">
+          <div class="col-12 col-xl-4 d-flex flex-column justify-content-center align-items-center">
             <h2 class="mb-4">Connect With Me</h2>
 
             <!-- LinkedIn -->
@@ -370,8 +370,7 @@
             </a>
 
             <!-- Email -->
-            <a href="mailto:lpoint1988@gmail.com"
-              aria-label="Send Luke Payne an email"
+            <a href="mailto:lpoint1988@gmail.com" aria-label="Send Luke Payne an email"
               class="btn btn-outline-secondary btn-sm mb-3 w-100 text-decoration-none">
               <i class="fa-solid fa-envelope me-2"></i> Email Me
             </a>
@@ -392,32 +391,34 @@
       <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
         <i class="fa-brands fa-bootstrap"></i>
       </a>
-         
+
     </p>
   </footer>
 
-  <!--Custom JavaScript:
-     Handles smooth scrolling and automatically closes
-     the Bootstrap mobile navbar after navigation-->
-  <script>
 
-    document
-      .querySelectorAll(".navbar-collapse .nav-link")
-      .forEach((link) => {
-        link.addEventListener("click", function () {
-          document
-            .querySelector(".navbar-collapse")
-            .classList.remove("show");
-        });
-      });
-  </script>
+
   <!--Javascript for Font Awesome and Bootstrap-->
   <script src="https://kit.fontawesome.com/52749b7183.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
 
-  
+  <!--Custom JavaScript:
+     Handles smooth scrolling and automatically closes
+     the Bootstrap mobile navbar after navigation-->
+  <script>
+  document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
+    link.addEventListener("click", function () {
+      setTimeout(() => {
+        const navCollapse = document.getElementById("navMenu");
+        const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navCollapse);
+        bsCollapse.hide();
+      }, 150);
+    });
+  });
+</script>
+
+
 </body>
 
 </html>

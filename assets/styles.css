@@ -24,6 +24,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 40px; /*To prevent content from being hidden behind the fixed navbar*/
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,7 +76,9 @@ section {
 .nav-link:hover {
     color: #84CC16 !important;
 }
-
+.navbar {
+    z-index: 1030;
+}
 
 
 
@@ -96,6 +99,8 @@ section {
     border-radius: 50%;
     border: 4px solid #36454F;
     margin-bottom: 30px;
+    transform: scale(1.5);
+    isolation: isolate;
 }
 
 #hero {
@@ -294,7 +299,7 @@ footer p {
         border-left: none !important;
     }
 
-    /* Center fact items on mobile/tablet for better layout */
+    /* align fact items for better layout */
     .fact-item {
         justify-content: start;
         text-align: start;
