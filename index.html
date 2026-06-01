@@ -59,7 +59,7 @@
             <div class="hero-profile-img">
               <img src="assets/images/profile-pic.jpg" alt="Luke Payne - profile photo">
             </div>
-            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-6">
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
               <a href="#contact" class="btn btn-dark">Contact Me</a>
               <a href="assets/docs/Luke-Payne-CV-Current.pdf" class="btn btn-outline-secondary" download>Download CV</a>
             </div>
@@ -217,7 +217,7 @@
             <div class="card h-100">
               <img src="assets/images/127.0.0.1_8000_.jpg" class="card-img-top" alt="My Portfolio screenshot">
               <div class="card-body">
-                <h2 class="card-title">My Portfolio</h2>
+                <h5 class="card-title">My Portfolio</h5>
                 <p class="card-text">A fully responsive personal portfolio site built as Milestone 1 for the Code
                   Institute Level 5 Full Stack Web Development course. Includes full project planning documentation,
                   user stories, wireframes, and accessibility testing.</p>
@@ -239,7 +239,7 @@
               <img src="assets/images/lukepayne268-tech.github.io_Synergy-Dayz-Server_index.html.jpg"
                 class="card-img-top" alt="Synergy DayZ screenshot">
               <div class="card-body">
-                <h2 class="card-title">Synergy DayZ</h2>
+                <h5 class="card-title">Synergy DayZ</h5>
                 <p class="card-text">A community website built for a personal DayZ gaming server. Designed and built
                   independently as a personal project outside of the course curriculum, putting newly acquired skills
                   into practice in a real world context.</p>
@@ -259,7 +259,7 @@
               <img src="assets/images/lukepayne268-tech.github.io_boardwalk-games_index.html.jpg" class="card-img-top"
                 alt="Boardwalk Games screenshot">
               <div class="card-body">
-                <h2 class="card-title">Boardwalk Games</h2>
+                <h5 class="card-title">Boardwalk Games</h5>
                 <p class="card-text">A front end site for a fictional board game café built as part of the Code
                   Institute curriculum. Features a responsive layout built with Bootstrap and a working contact form.
                 </p>
@@ -276,10 +276,10 @@
           <!-- Love Running -->
           <div class="col-12 col-md-6">
             <div class="card h-100">
-              <img src="assets/images/lukepayne268-tech.github.io_love-running_index.html (1).jpg" class="card-img-top"
+              <img src="assets/images/lukepayne268-tech.github.io_love-running_index.html.jpg" class="card-img-top"
                 alt="Love Running screenshot">
               <div class="card-body">
-                <h2 class="card-title">Love Running</h2>
+                <h5 class="card-title">Love Running</h5>
                 <p class="card-text">A front end site for a fictional running club built as part of the Code Institute
                   curriculum. Focuses on semantic HTML structure, CSS styling, and a sign up form.</p>
               </div>
@@ -407,10 +407,11 @@
      Handles smooth scrolling and automatically closes
      the Bootstrap mobile navbar after navigation-->
   <script>
+    /*global bootstrap*/
   document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
     link.addEventListener("click", function () {
       setTimeout(() => {
-        const navCollapse = document.getElementById("navMenu");
+        const navCollapse = document.getElementById("navbarNavAltMarkup");
         const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navCollapse);
         bsCollapse.hide();
       }, 150);
