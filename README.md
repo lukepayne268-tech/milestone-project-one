@@ -296,7 +296,7 @@ The site uses semantic HTML5 elements throughout including `<nav>`, `<main>`, `<
 
 The site is fully responsive across mobile, tablet, desktop and XL screen sizes using Bootstrap 5's grid system and custom CSS media queries.
 
-[View Mobile Layout](assets/images/mobile-user-story-comp -1.jpg)  
+[View Mobile Layout](assets/images/mobile-user-story-comp-1.jpg)  
 [View Tablet Layout](assets/images/tablet-user-story-comp.jpg)  
 [View Desktop Layout](assets/images/desktop-user-story-comp.jpg)
 
@@ -367,7 +367,7 @@ The contact section is accessible from the navbar and contains a Formspree power
 
 A Download CV button is present in the hero section on all screen sizes and in the navbar on XL screens. Clicking it downloads a PDF.
 
-[View CV Download Button](assets/images/hero-download-cv-.png)
+[View CV Download Button](assets/images/hero-download-cv.png)
 
 ---
 
@@ -396,7 +396,7 @@ The site is fully responsive and was tested on Chrome DevTools at 320px, 768px, 
 
 GitHub links are present in the contact section social buttons and in each project card footer. All links open in a new tab.
 
-[View GitHub Links](assets/images/socials-user-story -comp.jpg)
+[View GitHub Links](assets/images/socials-user-story-comp.jpg)
 
 
 
@@ -409,8 +409,8 @@ GitHub links are present in the contact section social buttons and in each proje
 | Validator | Result |
 | --- | --- |
 | [W3C HTML Validator](https://validator.w3.org/) | ✅ Pass — no errors |
-| [W3C CSS Validator](assets/images/css-validation-user-story-comp.jpg) | ✅ Pass — no errors |
-
+| [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) | ✅ Pass — no errors |
+| [JSHint JavaScript Linter](https://jshint.com/) | ✅ Pass — no errors or warnings |
 ---
 
 ## Lighthouse Testing
@@ -428,7 +428,7 @@ accessibility and best practices across both mobile and desktop.
 | Accessibility | 95 | 🟢 Excellent |
 | Best Practices | 100 | 🟢 Perfect |
 
-![!\[Lighthouse Initial Test\](assets/images/lighthouse-initial-test.png)](<assets/images/lighthouse-initial-test .png>)
+![Lighthouse Initial Test](assets/images/lighthouse-initial-test.png)
 ![Lighthouse Initial Failures](assets/images/initial-lighthouse-failures.png)
 ![Lighthouse Initial Metrics](assets/images/lighthouse-initial-metrics.png)
 ![Lighthouse with compressed images - Mobile Score](assets/images/lighthouse-pass.png)
@@ -474,11 +474,6 @@ accessibility and best practices across both mobile and desktop.
 
 ---
 
-## Known Limitations
-
-- **Unused CSS** — Bootstrap's full stylesheet loads via CDN, contributing ~45KB of unused CSS. This cannot be resolved without a build tool such as Webpack or Vite and is considered acceptable for a Milestone 1 project.
-- **Render-blocking resources** — Bootstrap and Google Fonts are loaded via CDN and may block rendering on slower connections. This is a known trade-off of using CDN-hosted frameworks.
-- **Accessibility score 95** — Two Lighthouse flags relate to icon-only links and duplicate CV download links. These do not affect usability for the vast majority of users.
 
 ## Accessibility Testing
 
@@ -523,14 +518,16 @@ The following features were tested across all browsers:
 | Responsive layout | Resized browser window to check breakpoints |
 
 
-
 ---
 
-## Known Bugs
+## Known Limitations and Bugs
 
-| Bug | Status |
-|-----|--------|
-| Navbar appears cut off at top of viewport when scrolling | Working on a solution currently |
+| Issue | Type | Status |
+| --- | --- | --- |
+| Unused CSS — Bootstrap's full stylesheet loads via CDN contributing ~45KB of unused CSS | Known Limitation | Cannot be resolved without a build tool such as Webpack or Vite — acceptable for a Milestone 1 project |
+| Render-blocking resources — Bootstrap and Google Fonts loaded via CDN may block rendering on slower connections | Known Limitation | Known trade-off of using CDN hosted frameworks |
+| Accessibility score 95 — two Lighthouse flags relate to icon-only links and duplicate CV download links | Known Limitation | Does not affect usability for the vast majority of users |
+| Navbar appears to clip when scrolling in Chrome DevTools mobile simulation | Known Bug | Does not occur on real mobile devices — tested and confirmed working correctly on iPhone |
 
 ---
 
