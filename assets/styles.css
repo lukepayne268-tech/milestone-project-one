@@ -23,7 +23,7 @@ body {
     background: linear-gradient(135deg, #F5F5F0 0%, #EAEAE4 100%);
     margin: 0;
     padding: 0;
-    padding-top: 56px; /*To prevent content from being hidden behind the fixed navbar*/
+    padding-top: 65px; /*To prevent content from being hidden behind the fixed navbar*/
     overflow-x: hidden;
 }
 
@@ -105,7 +105,8 @@ section {
     
     display: flex;
     align-items: center;
-    padding: 40px 20px;
+    padding: 60px 20px 40px 20px;
+    
     
 }
 
